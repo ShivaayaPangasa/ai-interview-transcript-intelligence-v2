@@ -18,16 +18,12 @@ def analyze_transcript(transcript):
 
     unique_words = len(set(words))
 
-    if total_words == 0:
-        vocabulary_richness = 0
-    else:
-        vocabulary_richness = (
-            unique_words /
-            total_words
-        )
+    vocabulary_richness = (
+        unique_words / total_words
+    ) if total_words > 0 else 0
 
     # ==========================
-    # SENTENCE CONSISTENCY
+    # SENTENCE ANALYSIS
     # ==========================
 
     sentences = re.split(
@@ -88,6 +84,7 @@ def analyze_transcript(transcript):
     # ==========================
 
     formal_words = {
+
         "therefore",
         "furthermore",
         "moreover",
@@ -97,7 +94,15 @@ def analyze_transcript(transcript):
         "additionally",
         "accordingly",
         "indeed",
-        "notwithstanding"
+        "notwithstanding",
+        "firstly",
+        "secondly",
+        "thirdly",
+        "finally",
+        "in_conclusion",
+        "in_summary",
+        "conclusion",
+        "summary"
     }
 
     formal_count = sum(
@@ -112,7 +117,7 @@ def analyze_transcript(transcript):
     ) if total_words > 0 else 0
 
     # ==========================
-    # RETURN RESULTS
+    # RETURN
     # ==========================
 
     return {
