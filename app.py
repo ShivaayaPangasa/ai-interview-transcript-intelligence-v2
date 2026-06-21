@@ -66,6 +66,19 @@ div[data-testid="stMetric"]{
     padding:18px;
 }
 
+header{
+    visibility:hidden;
+}
+
+[data-testid="stHeader"]{
+    background:transparent;
+}
+
+.stButton button{
+    border-radius:12px;
+    height:50px;
+}
+
 </style>
 """, unsafe_allow_html=True)
 
@@ -139,23 +152,28 @@ with controls_col:
         analyze_button = st.button(
             "Analyze Response"
         )
-
+        
 with status_col:
 
     st.subheader("Status")
 
     if st.session_state.recording:
 
+        st.error(
+            "● Recording"
+        )
+
+    elif st.session_state.audio_saved:
+
         st.success(
-            "Recording"
+            "● Ready for Analysis"
         )
 
     else:
 
         st.info(
-            "Idle"
+            "● Awaiting Recording"
         )
-
 
 # =====================================
 # ANALYSIS
@@ -310,20 +328,24 @@ if analyze_button:
     
     if response_type == "Natural Response":
         badge_color = "#22C55E"
-    
+        card_bg = "#F0FDF4"
+        
     elif response_type == "Prepared Response":
         badge_color = "#F59E0B"
+        card_bg = "#FFFBEB"
     
     else:
         badge_color = "#EA580C"
+        card_bg = "#FFF7ED"
         
     st.markdown(
         f"""
         <div style="
-        background:white;
+        background:{card_bg};
         border:1px solid #E7E2DA;
         border-radius:20px;
-        padding:20px;
+        padding:18px;
+        min-height:180px;
         ">
         
         <h2 style="
@@ -334,13 +356,13 @@ if analyze_button:
         </h2>
         
         <h1 style="
-        font-size:48px;
+        font-size:42px;
         margin-top:15px;
         margin-bottom:10px;
         color:#2D2D2D;
         ">
         
-        {result['preparedness_score']:.0f}/100
+        {result['preparedness_score']:.0f}
         </h1>
         
         <p style="
