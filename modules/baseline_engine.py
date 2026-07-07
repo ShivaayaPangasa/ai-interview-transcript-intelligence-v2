@@ -19,6 +19,8 @@ This baseline is later used for:
 
 from modules.interview_models import InterviewSession
 
+import statistics
+
 
 def generate_candidate_baseline(
     session: InterviewSession
@@ -27,75 +29,102 @@ def generate_candidate_baseline(
     Computes average linguistic metrics
     across an interview session.
     """
+    
+    perplexities = []
+    
+    vocabularies = []
+    
+    repetitions = []
+    
+    formalities = []
+    
+    consistencies = []
 
-    total_perplexity = 0
 
-    total_vocabulary = 0
-
-    total_repetition = 0
-
-    total_formality = 0
-
-    total_consistency = 0
-
-    valid_responses = 0
 
     for response in session.responses:
 
         if response.metrics is None:
 
             continue
-
-        total_perplexity += response.metrics["perplexity"]
-
-        total_vocabulary += response.metrics["vocabulary_richness"]
-
-        total_repetition += response.metrics["repetition_score"]
-
-        total_formality += response.metrics["formality_score"]
-
-        total_consistency += response.metrics["sentence_consistency"]
-
-        valid_responses += 1
-
-    if valid_responses == 0:
-
+        
+        perplexities.append(response.metrics["perplexity"])
+        
+        vocabularies.append(response.metrics["vocabulary_richness"])
+        
+        repetitions.append(response.metrics["repetition_score"])
+        
+        formalities.append(response.metrics["formality_score"])
+        
+        consistencies.append(response.metrics["sentence_consistency"])
+        
+    if len(perplexities) == 0:
+        
         return None
-
+    
     baseline = {
-
-        "average_perplexity":
-            round(
-                total_perplexity / valid_responses,
+        
+        "perplexity": {
+            "mean": round(
+                statistics.mean(perplexities),
                 2
             ),
-
-        "average_vocabulary":
-            round(
-                total_vocabulary / valid_responses,
+            
+            "std": round(
+                statistics.stdev(perplexities),
+                2
+            ) if len(perplexities) > 1 else 0
+        },
+        
+        "vocabulary": {
+            "mean": round(
+                statistics.mean(vocabularies),
                 3
             ),
-
-        "average_repetition":
-            round(
-                total_repetition / valid_responses,
+            
+            "std": round(
+                statistics.stdev(vocabularies),
+                3
+            ) if len(vocabularies) > 1 else 0
+        },
+        
+        "repetition": {
+            "mean": round(
+                statistics.mean(repetitions),
                 3
             ),
-
-        "average_formality":
-            round(
-                total_formality / valid_responses,
+            
+            "std": round(
+                statistics.stdev(repetitions),
+                3
+            ) if len(repetitions) > 1 else 0
+        },
+        
+        "formality": {
+            "mean": round(
+                statistics.mean(formalities),
                 3
             ),
-
-        "average_consistency":
-            round(
-                total_consistency / valid_responses,
+            
+            "std": round(
+                statistics.stdev(formalities),
+                3
+            ) if len(formalities) > 1 else 0
+        },
+        
+        "consistency": {
+            "mean": round(
+                statistics.mean(consistencies),
                 3
             ),
-
-        "responses_used":
-            valid_responses
+            
+            "std": round(
+                statistics.stdev(consistencies),
+                3
+            ) if len(consistencies) > 1 else 0
+        },
+        
+        "responses_used": len(perplexities)
     }
 
     return baseline
