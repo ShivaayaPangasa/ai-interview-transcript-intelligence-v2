@@ -21,37 +21,51 @@ def detect_outlier(
         return None
 
     metrics = response.metrics
-
     deviations = {
 
         "perplexity":
-            abs(
-                metrics["perplexity"] -
-                baseline["perplexity"]["mean"]
+            round(
+                abs(
+                    metrics["perplexity"] -
+                    baseline["perplexity"]["mean"]
+                ),
+                3
             ),
 
         "vocabulary":
-            abs(
-                metrics["vocabulary_richness"] -
-                baseline["vocabulary"]["mean"]
+            round(
+                abs(
+                    metrics["vocabulary_richness"] -
+                    baseline["vocabulary"]["mean"]
+                ),
+                3
             ),
 
         "repetition":
-            abs(
-                metrics["repetition_score"] -
-                baseline["repetition"]["mean"]
+            round(
+                abs(
+                    metrics["repetition_score"] -
+                    baseline["repetition"]["mean"]
+                ),
+                3
             ),
 
         "formality":
-            abs(
-                metrics["formality_score"] -
-                baseline["formality"]["mean"]
+            round(
+                abs(
+                    metrics["formality_score"] -
+                    baseline["formality"]["mean"]
+                ),
+                3
             ),
 
         "consistency":
-            abs(
-                metrics["sentence_consistency"] -
-                baseline["consistency"]["mean"]
+            round(
+                abs(
+                    metrics["sentence_consistency"] -
+                    baseline["consistency"]["mean"]
+                ),
+                3
             )
 
     }

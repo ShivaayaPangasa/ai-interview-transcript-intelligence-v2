@@ -23,6 +23,25 @@ from typing import List, Optional
 # INDIVIDUAL INTERVIEW RESPONSE
 # ==============================================================
 
+from dataclasses import dataclass, field
+from typing import Optional
+
+@dataclass
+class RetrievedDocument:
+    """
+    Represents one retrieved
+    reference document.
+    """
+
+    title: str
+
+    url: str
+
+    content: str
+
+    source: str
+
+    similarity: Optional[float] = None
 @dataclass
 class InterviewResponse:
     """
@@ -42,7 +61,8 @@ class InterviewResponse:
     baseline_deviation: Optional[dict] = None
 
     ai_flag: Optional[dict] = None
-
+    
+    retrieved_documents: list = field(default_factory=list)
 
 # ==============================================================
 # COMPLETE INTERVIEW SESSION
