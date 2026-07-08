@@ -25,7 +25,6 @@ from typing import List, Optional
 
 from dataclasses import dataclass, field
 from typing import Optional
-
 @dataclass
 class RetrievedDocument:
     """
@@ -42,6 +41,21 @@ class RetrievedDocument:
     source: str
 
     similarity: Optional[float] = None
+@dataclass
+class SimilarityResult:
+    """
+    Represents the similarity score
+    between a candidate answer and
+    one retrieved reference document.
+    """
+
+    title: str
+
+    similarity_score: float
+
+    source: str
+
+    matched_content: str
 @dataclass
 class InterviewResponse:
     """
