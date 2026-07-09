@@ -1,0 +1,23 @@
+# Similarity Weights
+
+TFIDF_WEIGHT = 0.60
+
+NGRAM_WEIGHT = 0.20
+
+JACCARD_WEIGHT = 0.20
+
+
+# Plagiarism Thresholds
+
+LOW_SIMILARITY = 0.30
+
+MODERATE_SIMILARITY = 0.60
+
+HIGH_SIMILARITY = 0.80
+
+
+# Authenticity Thresholds
+
+AI_FLAG_THRESHOLD = 75
+
+OUTLIER_THRESHOLD = 2.0

@@ -23,6 +23,6 @@ for document in documents:
 
     print(f"URL      : {document.url}")
 
-    print(f"Snippet  : {document.snippet}")
+    print(f"Content  : {document.content}")
 
     print("-" * 60)

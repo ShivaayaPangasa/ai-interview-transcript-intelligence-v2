@@ -41,21 +41,52 @@ class RetrievedDocument:
     source: str
 
     similarity: Optional[float] = None
+
 @dataclass
 class SimilarityResult:
     """
-    Represents the similarity score
-    between a candidate answer and
-    one retrieved reference document.
+    Represents similarity between a
+    candidate answer and one
+    retrieved reference document.
     """
 
     title: str
 
-    similarity_score: float
-
     source: str
 
     matched_content: str
+
+    tfidf_score: float
+
+    ngram_score: float
+
+    jaccard_score: float
+
+    final_score: float
+    
+@dataclass
+class PlagiarismResult:
+    """
+    Represents the plagiarism assessment
+    for one interview response.
+    """
+
+    highest_similarity: float
+
+    matched_title: str
+
+    matched_source: str
+
+    matched_content: str
+
+    plagiarism_score: float
+
+    plagiarism_flag: bool
+
+    confidence: str
+
+    explanation: str
+    
 @dataclass
 class InterviewResponse:
     """

@@ -141,3 +141,51 @@ class WikipediaProvider:
             documents.append(document)
 
         return documents
+    
+    def get_summary(
+    self,
+    topic: str
+    ):
+        
+        """
+        Retrieves the Wikipedia summary
+        for an exact topic.
+        """
+        
+        url = (
+            "https://en.wikipedia.org/api/rest_v1/"
+            f"page/summary/{topic.replace(' ', '_')}"
+        )
+
+        headers = {
+            "User-Agent":
+            "InterviewIntelligence/1.0"
+        }
+
+        response = requests.get(
+            url,
+            headers=headers,
+            timeout=10
+        )
+
+        if response.status_code != 200:
+            
+            return None
+
+        data = response.json()
+
+        if "extract" not in data:
+            
+            return None
+
+        return RetrievedDocument(
+            
+            title=data["title"],
+
+            source="Wikipedia",
+
+            url=data["content_urls"]["desktop"]["page"],
+
+            content=data["extract"]
+
+        )
