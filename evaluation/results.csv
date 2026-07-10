@@ -1,0 +1,37 @@
+candidate,question,ground_truth,prediction,ai_probability,plagiarism_score,authenticity_score
+Shivaaya,What is Machine Learning?,Wikipedia,Genuine,46.69,66.5,55.24
+Shivaaya,What is Overfitting?,AI,Genuine,27.03,18.8,70.52
+Shivaaya,What is Gradient Descent?,Genuine,Genuine,34.11,7.4,77.89
+Shivaaya,What is Machine Learning?,AI,Genuine,35.83,28.0,69.3
+Shivaaya,What is Machine Learning?,Genuine,Genuine,37.72,18.7,74.62
+Shivaaya,What is Machine Learning?,Wikipedia,Wikipedia,51.09,89.1,46.5
+Shivaaya,What is Machine Learning?,Wikipedia,Wikipedia,58.81,93.0,44.2
+Shivaaya,What is Machine Learning?,Genuine,Genuine,44.74,21.9,73.93
+Shivaaya,What is Machine Learning?,AI,Genuine,38.98,28.2,69.25
+Shivaaya,What is Overfitting?,AI,Genuine,36.53,27.5,68.81
+Shivaaya,What is Overfitting?,Genuine,Genuine,36.95,17.5,45.53
+Shivaaya,What is Overfitting?,Wikipedia,Wikipedia,49.87,79.0,49.58
+Shivaaya,What is Underfitting?,Genuine,Genuine,53.79,26.6,46.72
+Shivaaya,What is Underfitting?,AI,Genuine,28.43,22.6,70.97
+Shivaaya,What is Underfitting?,Wikipedia,Genuine,43.91,31.4,68.52
+Shivaaya,What is Gradient Descent?,Wikipedia,Genuine,40.34,31.9,41.68
+Shivaaya,What is Gradient Descent?,Genuine,Genuine,43.3,16.5,46.89
+Shivaaya,What is Gradient Descent?,AI,Genuine,42.49,9.8,78.91
+Shivaaya,What is Supervised Learning?,AI,Genuine,46.53,29.5,68.91
+Shivaaya,What is Supervised Learning?,Wikipedia,Wikipedia,47.32,82.1,48.25
+Shivaaya,What is Supervised Learning?,Genuine,Genuine,47.94,30.5,47.06
+Shivaaya,What is Unsupervised Learning?,Wikipedia,Genuine,34.3,19.7,44.77
+Shivaaya,What is Unsupervised Learning?,AI,Genuine,38.64,25.1,71.22
+Shivaaya,What is Unsupervised Learning?,Genuine,Genuine,51.94,27.2,43.79
+Shivaaya,What is Reinforcement Learning?,Genuine,Genuine,16.72,15.1,71.14
+Shivaaya,What is Reinforcement Learning?,AI,Genuine,46.98,34.2,68.75
+Shivaaya,What is Reinforcement Learning?,Wikipedia,Genuine,42.98,29.0,71.1
+Shivaaya,What is Neural Network?,Wikipedia,Genuine,51.06,34.7,68.1
+Shivaaya,What is Neural Network?,Genuine,Genuine,36.3,15.2,76.82
+Shivaaya,What is Neural Network?,AI,Genuine,32.53,27.5,69.21
+Shivaaya,What is Random Forest?,Genuine,Genuine,32.29,26.3,69.65
+Shivaaya,What is Random Forest?,AI,Genuine,34.33,36.0,66.36
+Shivaaya,What is Random Forest?,Wikipedia,Wikipedia,34.23,71.4,50.42
+Shivaaya,What is Decision Tree?,Wikipedia,Genuine,40.96,15.9,74.67
+Shivaaya,What is Decision Tree?,AI,Genuine,33.72,16.1,74.49
+Shivaaya,What is Decision Tree?,Genuine,Genuine,38.02,7.9,51.75

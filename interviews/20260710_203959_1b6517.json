@@ -1,0 +1,244 @@
+{
+    "candidate_name": "Shivaaya",
+    "interview_id": "20260710_203959_1b6517",
+    "baseline": {
+        "perplexity": {
+            "mean": 79.11,
+            "std": 13.96
+        },
+        "vocabulary": {
+            "mean": 0.816,
+            "std": 0.051
+        },
+        "repetition": {
+            "mean": 0.094,
+            "std": 0.034
+        },
+        "formality": {
+            "mean": 0.011,
+            "std": 0.019
+        },
+        "consistency": {
+            "mean": 1.833,
+            "std": 3.175
+        },
+        "responses_used": 3
+    },
+    "summary": {
+        "candidate_name": "Shivaaya",
+        "interview_id": "20260710_203959_1b6517",
+        "total_questions": 3,
+        "average_preparedness": 40.97,
+        "average_plagiarism": 30.9,
+        "average_ai_probability": 35.94,
+        "overall_authenticity": 67.88,
+        "flagged_questions": 0,
+        "recommendation": "Needs Manual Review",
+        "generated_at": "2026-07-10 20:43:05"
+    },
+    "responses": [
+        {
+            "question": "What is Machine Learning?",
+            "answer": " My Sheen Learning is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data and first perform tasks without being explicitly programmed.",
+            "metrics": {
+                "total_words": 38,
+                "unique_words": 33,
+                "vocabulary_richness": 0.868,
+                "sentence_consistency": 0,
+                "repetition_score": 0.079,
+                "formality_score": 0.0,
+                "perplexity": 65.16
+            },
+            "preparedness": {
+                "preparedness_score": 43.94,
+                "response_type": "Natural Response",
+                "confidence": 12.12,
+                "observed_traits": [
+                    "Rich Vocabulary",
+                    "Low Sentence Variation"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.665,
+                "matched_title": "Machine learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+                "plagiarism_score": 66.5,
+                "plagiarism_flag": false,
+                "confidence": "Moderate",
+                "explanation": "Moderate similarity detected."
+            },
+            "baseline_deviation": null,
+            "ai_flag": {
+                "ai_probability": 46.69,
+                "confidence": 6.62,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "High perplexity suggests natural variation.",
+                    "Very rich vocabulary.",
+                    "Mostly conversational language.",
+                    "Very uniform sentence lengths.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Moderate external similarity.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 43.94,
+                "plagiarism_score": 66.5,
+                "outlier_score": 0,
+                "ai_probability": 46.69,
+                "authenticity_score": 55.24,
+                "risk_level": "Moderate",
+                "recommendation": "Needs Manual Review",
+                "explanation": "Preparedness: 43.9, Plagiarism: 66.5, Outlier: No, AI Probability: 46.7"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Machine learning",
+                    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+                    "content": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Overfitting?",
+            "answer": " Overfitting is a problem in machine learning where a model learns the data to well including its noise and random patterns and instead of learning underlying relationships. As a result, it performs very well on training data but poorly on new unseen data.",
+            "metrics": {
+                "total_words": 43,
+                "unique_words": 35,
+                "vocabulary_richness": 0.814,
+                "sentence_consistency": 5.5,
+                "repetition_score": 0.07,
+                "formality_score": 0.0,
+                "perplexity": 79.11
+            },
+            "preparedness": {
+                "preparedness_score": 32.68,
+                "response_type": "Natural Response",
+                "confidence": 34.64,
+                "observed_traits": [
+                    "Rich Vocabulary"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.188,
+                "matched_title": "Overfitting",
+                "matched_source": "Wikipedia",
+                "matched_content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                "plagiarism_score": 18.8,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": null,
+            "ai_flag": {
+                "ai_probability": 27.03,
+                "confidence": 45.94,
+                "risk_level": "Very Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "High perplexity suggests natural variation.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Moderate sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 32.68,
+                "plagiarism_score": 18.8,
+                "outlier_score": 0,
+                "ai_probability": 27.03,
+                "authenticity_score": 70.52,
+                "risk_level": "Low",
+                "recommendation": "Probably Genuine",
+                "explanation": "Preparedness: 32.7, Plagiarism: 18.8, Outlier: No, AI Probability: 27.0"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Overfitting",
+                    "url": "https://en.wikipedia.org/wiki/Overfitting",
+                    "content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Gradient Descent?",
+            "answer": " Gradient descent is a situation wherein we are basically changing the slopes of the data like the gradients are the derivatives which are calculated and hence we are doing that.",
+            "metrics": {
+                "total_words": 30,
+                "unique_words": 23,
+                "vocabulary_richness": 0.767,
+                "sentence_consistency": 0,
+                "repetition_score": 0.133,
+                "formality_score": 0.033,
+                "perplexity": 93.07
+            },
+            "preparedness": {
+                "preparedness_score": 46.3,
+                "response_type": "Prepared Response",
+                "confidence": 7.4,
+                "observed_traits": [
+                    "Low Sentence Variation",
+                    "Academic / Formal Language"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.074,
+                "matched_title": "Gradient descent",
+                "matched_source": "Wikipedia",
+                "matched_content": "Gradient descent is a method for unconstrained mathematical optimization. It is a first-order iterative algorithm for minimizing a differentiable multivariate function.",
+                "plagiarism_score": 7.4,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": null,
+            "ai_flag": {
+                "ai_probability": 34.11,
+                "confidence": 31.78,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "High perplexity suggests natural variation.",
+                    "Above-average vocabulary richness.",
+                    "Formal language detected.",
+                    "Very uniform sentence lengths.",
+                    "Noticeable repeated wording.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 46.3,
+                "plagiarism_score": 7.4,
+                "outlier_score": 0,
+                "ai_probability": 34.11,
+                "authenticity_score": 77.89,
+                "risk_level": "Low",
+                "recommendation": "Probably Genuine",
+                "explanation": "Preparedness: 46.3, Plagiarism: 7.4, Outlier: No, AI Probability: 34.1"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Gradient descent",
+                    "url": "https://en.wikipedia.org/wiki/Gradient_descent",
+                    "content": "Gradient descent is a method for unconstrained mathematical optimization. It is a first-order iterative algorithm for minimizing a differentiable multivariate function.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "candidate_name": "Shivaaya",
+    "interview_id": "20260710_161358_fb4782",
+    "baseline": null,
+    "summary": {
+        "candidate_name": "Shivaaya",
+        "interview_id": "20260710_161358_fb4782",
+        "total_questions": 1,
+        "average_preparedness": 42.34,
+        "average_plagiarism": 22.7,
+        "average_ai_probability": 34.77,
+        "overall_authenticity": 71.28,
+        "flagged_questions": 0,
+        "recommendation": "Probably Genuine",
+        "generated_at": "2026-07-10 16:15:01"
+    },
+    "responses": [
+        {
+            "question": "What is Overfitting?",
+            "answer": " Overfitting is a problem in machine learning where a model learns the training data to weld, including its noise and random patterns instead of learning the underlying relationships. As a result, it performs very well on the training data but poorly on new unseen data.",
+            "metrics": {
+                "total_words": 45,
+                "unique_words": 36,
+                "vocabulary_richness": 0.8,
+                "sentence_consistency": 5.5,
+                "repetition_score": 0.067,
+                "formality_score": 0.0
+            },
+            "preparedness": {
+                "preparedness_score": 42.34,
+                "response_type": "Natural Response",
+                "confidence": 15.32,
+                "observed_traits": []
+            },
+            "similarity": {
+                "highest_similarity": 0.227,
+                "matched_title": "Overfitting",
+                "matched_source": "Wikipedia",
+                "matched_content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                "plagiarism_score": 22.7,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": null,
+            "ai_flag": {
+                "ai_probability": 34.77,
+                "confidence": 30.46,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Moderate sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 42.34,
+                "plagiarism_score": 22.7,
+                "outlier_score": 0,
+                "ai_probability": 34.77,
+                "authenticity_score": 71.28,
+                "risk_level": "Low",
+                "recommendation": "Probably Genuine",
+                "explanation": "Preparedness: 42.3, Plagiarism: 22.7, Outlier: No, AI Probability: 34.8"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Overfitting",
+                    "url": "https://en.wikipedia.org/wiki/Overfitting",
+                    "content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        }
+    ]
+}

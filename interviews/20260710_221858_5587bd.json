@@ -1,0 +1,2737 @@
+{
+    "candidate_name": "Shivaaya",
+    "interview_id": "20260710_221858_5587bd",
+    "baseline": {
+        "perplexity": {
+            "mean": 54.51,
+            "std": 34.78
+        },
+        "vocabulary": {
+            "mean": 0.72,
+            "std": 0.096
+        },
+        "repetition": {
+            "mean": 0.082,
+            "std": 0.028
+        },
+        "formality": {
+            "mean": 0.003,
+            "std": 0.009
+        },
+        "consistency": {
+            "mean": 5.743,
+            "std": 4.057
+        },
+        "responses_used": 30
+    },
+    "summary": {
+        "candidate_name": "Shivaaya",
+        "interview_id": "20260710_221858_5587bd",
+        "total_questions": 30,
+        "average_preparedness": 44.02,
+        "average_plagiarism": 31.64,
+        "average_ai_probability": 40.83,
+        "overall_authenticity": 61.38,
+        "flagged_questions": 0,
+        "recommendation": "Needs Manual Review",
+        "generated_at": "2026-07-11 00:04:04"
+    },
+    "responses": [
+        {
+            "question": "What is Machine Learning?",
+            "answer": " Machine learning is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms to surpass many produced machine learning approaches and performance.",
+            "metrics": {
+                "total_words": 62,
+                "unique_words": 44,
+                "vocabulary_richness": 0.71,
+                "sentence_consistency": 6.0,
+                "repetition_score": 0.065,
+                "formality_score": 0.016,
+                "perplexity": 34.02
+            },
+            "preparedness": {
+                "preparedness_score": 42.1,
+                "response_type": "Natural Response",
+                "confidence": 15.8,
+                "observed_traits": [
+                    "Highly Predictable Text"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.93,
+                "matched_title": "Machine learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+                "plagiarism_score": 93.0,
+                "plagiarism_flag": true,
+                "confidence": "Very High",
+                "explanation": "Similarity exceeded the high threshold."
+            },
+            "baseline_deviation": null,
+            "ai_flag": {
+                "ai_probability": 58.81,
+                "confidence": 17.62,
+                "risk_level": "Moderate",
+                "recommendation": "Mixed linguistic characteristics detected.",
+                "explanation": [
+                    "Low perplexity indicates structured language.",
+                    "Above-average vocabulary richness.",
+                    "Some formal expressions used.",
+                    "Moderate sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Very high similarity to external sources.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 42.1,
+                "plagiarism_score": 93.0,
+                "outlier_score": 0,
+                "ai_probability": 58.81,
+                "authenticity_score": 44.2,
+                "risk_level": "High",
+                "recommendation": "Suspicious",
+                "explanation": "Preparedness: 42.1, Plagiarism: 93.0, Outlier: No, AI Probability: 58.8"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Machine learning",
+                    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+                    "content": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Machine Learning?",
+            "answer": " Machine Learning is a subset of AI in which we are feeding rules to the model and the model is extracting features from its own and making decisions.",
+            "metrics": {
+                "total_words": 28,
+                "unique_words": 24,
+                "vocabulary_richness": 0.857,
+                "sentence_consistency": 0,
+                "repetition_score": 0.071,
+                "formality_score": 0.0,
+                "perplexity": 57.43
+            },
+            "preparedness": {
+                "preparedness_score": 53.56,
+                "response_type": "Prepared Response",
+                "confidence": 7.12,
+                "observed_traits": [
+                    "Rich Vocabulary",
+                    "Low Sentence Variation"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.219,
+                "matched_title": "Machine learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+                "plagiarism_score": 21.9,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": null,
+            "ai_flag": {
+                "ai_probability": 44.74,
+                "confidence": 10.52,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Very rich vocabulary.",
+                    "Mostly conversational language.",
+                    "Very uniform sentence lengths.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 53.56,
+                "plagiarism_score": 21.9,
+                "outlier_score": 0,
+                "ai_probability": 44.74,
+                "authenticity_score": 73.93,
+                "risk_level": "Low",
+                "recommendation": "Probably Genuine",
+                "explanation": "Preparedness: 53.6, Plagiarism: 21.9, Outlier: No, AI Probability: 44.7"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Machine learning",
+                    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+                    "content": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Machine Learning?",
+            "answer": " My machine learning is a branch of artificial intelligence that enables computers to learn from data and improve their performance without being explicitly programmed for every task. Instead of following fixed instructions ML algorithms, identify patterns, make predictions and adapt based on experience, it is widely used in applications such as non-faituring recommendation system, speed recognition, image recognition, product recognition and self-driving cars. I am analyzing large amounts of data machine learning helps automate decision-making, increase accuracy and solve real-world complex problems efficiently.",
+            "metrics": {
+                "total_words": 87,
+                "unique_words": 76,
+                "vocabulary_richness": 0.874,
+                "sentence_consistency": 6.683,
+                "repetition_score": 0.046,
+                "formality_score": 0.0,
+                "perplexity": 43.33
+            },
+            "preparedness": {
+                "preparedness_score": 43.4,
+                "response_type": "Natural Response",
+                "confidence": 13.2,
+                "observed_traits": [
+                    "Rich Vocabulary"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.282,
+                "matched_title": "Machine learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+                "plagiarism_score": 28.2,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": null,
+            "ai_flag": {
+                "ai_probability": 38.98,
+                "confidence": 22.04,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Very rich vocabulary.",
+                    "Mostly conversational language.",
+                    "High sentence variation.",
+                    "Very little repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 43.4,
+                "plagiarism_score": 28.2,
+                "outlier_score": 0,
+                "ai_probability": 38.98,
+                "authenticity_score": 69.25,
+                "risk_level": "Moderate",
+                "recommendation": "Needs Manual Review",
+                "explanation": "Preparedness: 43.4, Plagiarism: 28.2, Outlier: No, AI Probability: 39.0"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Machine learning",
+                    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+                    "content": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Overfitting?",
+            "answer": " Overfitting is a problem in machine learning, where a model learns the training data too closely, including its knowledge and random details, instead of identifying the general patterns. As a result, the model performs very well on the training data, but poorly on new unseen data, because it cannot generalize effectively. Overfitting commonly occurs when a model is too complex or trained for too long, and it can be reduced using techniques such as simplifying the model, increasing the amount of training data, applying regularization or using cross validation.",
+            "metrics": {
+                "total_words": 89,
+                "unique_words": 62,
+                "vocabulary_richness": 0.697,
+                "sentence_consistency": 6.236,
+                "repetition_score": 0.067,
+                "formality_score": 0.0,
+                "perplexity": 30.23
+            },
+            "preparedness": {
+                "preparedness_score": 40.28,
+                "response_type": "Natural Response",
+                "confidence": 19.44,
+                "observed_traits": [
+                    "Highly Predictable Text"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.275,
+                "matched_title": "Overfitting",
+                "matched_source": "Wikipedia",
+                "matched_content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                "plagiarism_score": 27.5,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 14.7,
+                    "vocabulary": 0.117,
+                    "repetition": 0.006,
+                    "formality": 0.005,
+                    "consistency": 2.008
+                },
+                "z_scores": {
+                    "perplexity": 1.25,
+                    "vocabulary": 1.3,
+                    "repetition": 0.46,
+                    "formality": 0.56,
+                    "consistency": 0.55
+                },
+                "overall_deviation": 0.82,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 36.53,
+                "confidence": 26.94,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Low perplexity indicates structured language.",
+                    "Moderate vocabulary richness.",
+                    "Mostly conversational language.",
+                    "High sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 40.28,
+                "plagiarism_score": 27.5,
+                "outlier_score": 0,
+                "ai_probability": 36.53,
+                "authenticity_score": 68.81,
+                "risk_level": "Moderate",
+                "recommendation": "Needs Manual Review",
+                "explanation": "Preparedness: 40.3, Plagiarism: 27.5, Outlier: No, AI Probability: 36.5"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Overfitting",
+                    "url": "https://en.wikipedia.org/wiki/Overfitting",
+                    "content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Overfitting?",
+            "answer": " Overfitting is a situation wherein the model performs well on the training data but it does not perform well on the testing and unseen data and hence it just memorizes instead of learning. And we can stop it using only stopping and regularization.",
+            "metrics": {
+                "total_words": 43,
+                "unique_words": 33,
+                "vocabulary_richness": 0.767,
+                "sentence_consistency": 11.5,
+                "repetition_score": 0.093,
+                "formality_score": 0.023,
+                "perplexity": 68.26
+            },
+            "preparedness": {
+                "preparedness_score": 34.5,
+                "response_type": "Natural Response",
+                "confidence": 31.0,
+                "observed_traits": []
+            },
+            "similarity": {
+                "highest_similarity": 0.175,
+                "matched_title": "Overfitting",
+                "matched_source": "Wikipedia",
+                "matched_content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                "plagiarism_score": 17.5,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 27.01,
+                    "vocabulary": 0.017,
+                    "repetition": 0.031,
+                    "formality": 0.019,
+                    "consistency": 6.77
+                },
+                "z_scores": {
+                    "perplexity": 2.23,
+                    "vocabulary": 0.18,
+                    "repetition": 2.82,
+                    "formality": 2.38,
+                    "consistency": 2.14
+                },
+                "overall_deviation": 1.95,
+                "flag_percentage": 80.0,
+                "flagged_metrics": [
+                    "perplexity",
+                    "repetition",
+                    "formality",
+                    "consistency"
+                ],
+                "is_outlier": true
+            },
+            "ai_flag": {
+                "ai_probability": 36.95,
+                "confidence": 26.1,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "High perplexity suggests natural variation.",
+                    "Above-average vocabulary richness.",
+                    "Some formal expressions used.",
+                    "High sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response deviates significantly from candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 34.5,
+                "plagiarism_score": 17.5,
+                "outlier_score": 100,
+                "ai_probability": 36.95,
+                "authenticity_score": 45.53,
+                "risk_level": "High",
+                "recommendation": "Suspicious",
+                "explanation": "Preparedness: 34.5, Plagiarism: 17.5, Outlier: Yes, AI Probability: 37.0"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Overfitting",
+                    "url": "https://en.wikipedia.org/wiki/Overfitting",
+                    "content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Overfitting?",
+            "answer": " In mathematical modeling, overfitting is the production of an analysis that corresponds to closely or exactly to a particular set of data and may therefore feel to fit to additional data or predict future observations reliably. An overfitting model is a mathematical model that contains more parameters than can be justified by the data. In a special case of a model that consists of polynomial function, these parameters represent a degree of a polynomial.",
+            "metrics": {
+                "total_words": 74,
+                "unique_words": 47,
+                "vocabulary_richness": 0.635,
+                "sentence_consistency": 8.055,
+                "repetition_score": 0.081,
+                "formality_score": 0.014,
+                "perplexity": 36.02
+            },
+            "preparedness": {
+                "preparedness_score": 40.72,
+                "response_type": "Natural Response",
+                "confidence": 18.56,
+                "observed_traits": [
+                    "Highly Predictable Text"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.79,
+                "matched_title": "Overfitting",
+                "matched_source": "Wikipedia",
+                "matched_content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                "plagiarism_score": 79.0,
+                "plagiarism_flag": false,
+                "confidence": "Moderate",
+                "explanation": "Moderate similarity detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 10.63,
+                    "vocabulary": 0.146,
+                    "repetition": 0.013,
+                    "formality": 0.006,
+                    "consistency": 1.971
+                },
+                "z_scores": {
+                    "perplexity": 0.66,
+                    "vocabulary": 1.78,
+                    "repetition": 0.76,
+                    "formality": 0.55,
+                    "consistency": 0.48
+                },
+                "overall_deviation": 0.85,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 49.87,
+                "confidence": 0.26,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Low perplexity indicates structured language.",
+                    "Moderate vocabulary richness.",
+                    "Some formal expressions used.",
+                    "High sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Very high similarity to external sources.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 40.72,
+                "plagiarism_score": 79.0,
+                "outlier_score": 0,
+                "ai_probability": 49.87,
+                "authenticity_score": 49.58,
+                "risk_level": "High",
+                "recommendation": "Suspicious",
+                "explanation": "Preparedness: 40.7, Plagiarism: 79.0, Outlier: No, AI Probability: 49.9"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Overfitting",
+                    "url": "https://en.wikipedia.org/wiki/Overfitting",
+                    "content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Underfitting?",
+            "answer": " Underfitting is a situation wherein the model performs well, wherein the model does not perform well on the training data as well as the testing data and the performance is very bad. So, the model is not able to memorize or it's not able to learn and to prevent that we need to train the model with higher complexity.",
+            "metrics": {
+                "total_words": 60,
+                "unique_words": 37,
+                "vocabulary_richness": 0.617,
+                "sentence_consistency": 2.0,
+                "repetition_score": 0.117,
+                "formality_score": 0.0,
+                "perplexity": 27.28
+            },
+            "preparedness": {
+                "preparedness_score": 54.68,
+                "response_type": "Prepared Response",
+                "confidence": 9.36,
+                "observed_traits": [
+                    "Highly Predictable Text"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.266,
+                "matched_title": "Overfitting",
+                "matched_source": "Wikipedia",
+                "matched_content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                "plagiarism_score": 26.6,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 17.6,
+                    "vocabulary": 0.14,
+                    "repetition": 0.046,
+                    "formality": 0.009,
+                    "consistency": 4.412
+                },
+                "z_scores": {
+                    "perplexity": 1.18,
+                    "vocabulary": 1.49,
+                    "repetition": 2.88,
+                    "formality": 0.9,
+                    "consistency": 1.18
+                },
+                "overall_deviation": 1.53,
+                "flag_percentage": 20.0,
+                "flagged_metrics": [
+                    "repetition"
+                ],
+                "is_outlier": true
+            },
+            "ai_flag": {
+                "ai_probability": 53.79,
+                "confidence": 7.58,
+                "risk_level": "Moderate",
+                "recommendation": "Mixed linguistic characteristics detected.",
+                "explanation": [
+                    "Low perplexity indicates structured language.",
+                    "Moderate vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Low sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response deviates significantly from candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 54.68,
+                "plagiarism_score": 26.6,
+                "outlier_score": 100,
+                "ai_probability": 53.79,
+                "authenticity_score": 46.72,
+                "risk_level": "High",
+                "recommendation": "Suspicious",
+                "explanation": "Preparedness: 54.7, Plagiarism: 26.6, Outlier: Yes, AI Probability: 53.8"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Overfitting",
+                    "url": "https://en.wikipedia.org/wiki/Overfitting",
+                    "content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Underfitting?",
+            "answer": " Underfitting is a problem in machine learning where a model installs simple to capture the underlying patterns in the training data. As a result, it performs poorly on both the training and new unseen data because it fails to learn relationships within the data. Underfitting can occur due to insufficient training, limited features on an overly simple model and it can be improved using a complex more complex models and in relevant features or training the model for a longer time.",
+            "metrics": {
+                "total_words": 81,
+                "unique_words": 52,
+                "vocabulary_richness": 0.642,
+                "sentence_consistency": 7.118,
+                "repetition_score": 0.062,
+                "formality_score": 0.0,
+                "perplexity": 56.97
+            },
+            "preparedness": {
+                "preparedness_score": 39.08,
+                "response_type": "Natural Response",
+                "confidence": 21.84,
+                "observed_traits": []
+            },
+            "similarity": {
+                "highest_similarity": 0.226,
+                "matched_title": "Overfitting",
+                "matched_source": "Wikipedia",
+                "matched_content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                "plagiarism_score": 22.6,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 14.6,
+                    "vocabulary": 0.095,
+                    "repetition": 0.015,
+                    "formality": 0.008,
+                    "consistency": 1.336
+                },
+                "z_scores": {
+                    "perplexity": 0.96,
+                    "vocabulary": 0.94,
+                    "repetition": 0.65,
+                    "formality": 0.8,
+                    "consistency": 0.35
+                },
+                "overall_deviation": 0.74,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 28.43,
+                "confidence": 43.14,
+                "risk_level": "Very Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Moderate vocabulary richness.",
+                    "Mostly conversational language.",
+                    "High sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 39.08,
+                "plagiarism_score": 22.6,
+                "outlier_score": 0,
+                "ai_probability": 28.43,
+                "authenticity_score": 70.97,
+                "risk_level": "Low",
+                "recommendation": "Probably Genuine",
+                "explanation": "Preparedness: 39.1, Plagiarism: 22.6, Outlier: No, AI Probability: 28.4"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Overfitting",
+                    "url": "https://en.wikipedia.org/wiki/Overfitting",
+                    "content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Underfitting?",
+            "answer": " Underfitting occurs when a mathematical model cannot adequately capture the underlying structure of the data. An underfitted model is a model that is missing some parameters or doms that would appear in a correctly specified model. Underfitting could occur for example when fitting a linear model to non-linear data. Such a model will tend to have poor predictive performance.",
+            "metrics": {
+                "total_words": 60,
+                "unique_words": 43,
+                "vocabulary_richness": 0.717,
+                "sentence_consistency": 3.937,
+                "repetition_score": 0.1,
+                "formality_score": 0.0,
+                "perplexity": 31.23
+            },
+            "preparedness": {
+                "preparedness_score": 46.34,
+                "response_type": "Prepared Response",
+                "confidence": 7.32,
+                "observed_traits": [
+                    "Highly Predictable Text"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.314,
+                "matched_title": "Overfitting",
+                "matched_source": "Wikipedia",
+                "matched_content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                "plagiarism_score": 31.4,
+                "plagiarism_flag": false,
+                "confidence": "Low",
+                "explanation": "Minor overlap detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 12.96,
+                    "vocabulary": 0.008,
+                    "repetition": 0.025,
+                    "formality": 0.007,
+                    "consistency": 2.012
+                },
+                "z_scores": {
+                    "perplexity": 0.87,
+                    "vocabulary": 0.08,
+                    "repetition": 1.14,
+                    "formality": 0.78,
+                    "consistency": 0.57
+                },
+                "overall_deviation": 0.69,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 43.91,
+                "confidence": 12.18,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Low perplexity indicates structured language.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Moderate sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 46.34,
+                "plagiarism_score": 31.4,
+                "outlier_score": 0,
+                "ai_probability": 43.91,
+                "authenticity_score": 68.52,
+                "risk_level": "Moderate",
+                "recommendation": "Needs Manual Review",
+                "explanation": "Preparedness: 46.3, Plagiarism: 31.4, Outlier: No, AI Probability: 43.9"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Overfitting",
+                    "url": "https://en.wikipedia.org/wiki/Overfitting",
+                    "content": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data, and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more parameters than can be justified by the data. In the special case of a model that consists of a polynomial function, these parameters represent the degree of a polynomial. The essence of overfitting is to unknowingly extract some of the residual variation as if that variation represents the underlying model structure.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Gradient Descent?",
+            "answer": " Gradient descent is a method for unconstrained mathematical optimization. It is a first order a iterative algorithm for minimizing a differentiable multi-variate function. The idea is to take repeated steps in the opposite direction of the gradient or approximate gradient of the function at the current point because this is the direction of the steepest descent can now is the stepping in the direction of the gradient will lead to trajectory that maximizes that function. The procedure is then known as gradient ascent. Gradient descent should not be confused with local search algorithms although both are accurate for optimization.",
+            "metrics": {
+                "total_words": 100,
+                "unique_words": 62,
+                "vocabulary_richness": 0.62,
+                "sentence_consistency": 16.31,
+                "repetition_score": 0.11,
+                "formality_score": 0.0,
+                "perplexity": 47.44
+            },
+            "preparedness": {
+                "preparedness_score": 39.6,
+                "response_type": "Natural Response",
+                "confidence": 20.8,
+                "observed_traits": []
+            },
+            "similarity": {
+                "highest_similarity": 0.319,
+                "matched_title": "Gradient descent",
+                "matched_source": "Wikipedia",
+                "matched_content": "Gradient descent is a method for unconstrained mathematical optimization. It is a first-order iterative algorithm for minimizing a differentiable multivariate function.",
+                "plagiarism_score": 31.9,
+                "plagiarism_flag": false,
+                "confidence": "Low",
+                "explanation": "Minor overlap detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 4.69,
+                    "vocabulary": 0.104,
+                    "repetition": 0.032,
+                    "formality": 0.006,
+                    "consistency": 10.585
+                },
+                "z_scores": {
+                    "perplexity": 0.32,
+                    "vocabulary": 1.12,
+                    "repetition": 1.45,
+                    "formality": 0.67,
+                    "consistency": 3.12
+                },
+                "overall_deviation": 1.34,
+                "flag_percentage": 20.0,
+                "flagged_metrics": [
+                    "consistency"
+                ],
+                "is_outlier": true
+            },
+            "ai_flag": {
+                "ai_probability": 40.34,
+                "confidence": 19.32,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Moderate vocabulary richness.",
+                    "Mostly conversational language.",
+                    "High sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response deviates significantly from candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 39.6,
+                "plagiarism_score": 31.9,
+                "outlier_score": 100,
+                "ai_probability": 40.34,
+                "authenticity_score": 41.68,
+                "risk_level": "High",
+                "recommendation": "Suspicious",
+                "explanation": "Preparedness: 39.6, Plagiarism: 31.9, Outlier: Yes, AI Probability: 40.3"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Gradient descent",
+                    "url": "https://en.wikipedia.org/wiki/Gradient_descent",
+                    "content": "Gradient descent is a method for unconstrained mathematical optimization. It is a first-order iterative algorithm for minimizing a differentiable multivariate function.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Gradient Descent?",
+            "answer": " Pre-Din descent is basically used for minimizing the loss function or the cost. And there are many types like stochastic greed in descent.",
+            "metrics": {
+                "total_words": 24,
+                "unique_words": 22,
+                "vocabulary_richness": 0.917,
+                "sentence_consistency": 2.0,
+                "repetition_score": 0.083,
+                "formality_score": 0.0,
+                "perplexity": 153.7
+            },
+            "preparedness": {
+                "preparedness_score": 40.0,
+                "response_type": "Natural Response",
+                "confidence": 20.0,
+                "observed_traits": [
+                    "Rich Vocabulary"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.165,
+                "matched_title": "Gradient descent",
+                "matched_source": "Wikipedia",
+                "matched_content": "Gradient descent is a method for unconstrained mathematical optimization. It is a first-order iterative algorithm for minimizing a differentiable multivariate function.",
+                "plagiarism_score": 16.5,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 110.48,
+                    "vocabulary": 0.203,
+                    "repetition": 0.002,
+                    "formality": 0.005,
+                    "consistency": 4.784
+                },
+                "z_scores": {
+                    "perplexity": 7.95,
+                    "vocabulary": 2.16,
+                    "repetition": 0.09,
+                    "formality": 0.56,
+                    "consistency": 1.03
+                },
+                "overall_deviation": 2.36,
+                "flag_percentage": 40.0,
+                "flagged_metrics": [
+                    "perplexity",
+                    "vocabulary"
+                ],
+                "is_outlier": true
+            },
+            "ai_flag": {
+                "ai_probability": 43.3,
+                "confidence": 13.4,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "High perplexity suggests natural variation.",
+                    "Very rich vocabulary.",
+                    "Mostly conversational language.",
+                    "Low sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response deviates significantly from candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 40.0,
+                "plagiarism_score": 16.5,
+                "outlier_score": 100,
+                "ai_probability": 43.3,
+                "authenticity_score": 46.89,
+                "risk_level": "High",
+                "recommendation": "Suspicious",
+                "explanation": "Preparedness: 40.0, Plagiarism: 16.5, Outlier: Yes, AI Probability: 43.3"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Gradient descent",
+                    "url": "https://en.wikipedia.org/wiki/Gradient_descent",
+                    "content": "Gradient descent is a method for unconstrained mathematical optimization. It is a first-order iterative algorithm for minimizing a differentiable multivariate function.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Gradient Descent?",
+            "answer": " Radiant descent is an optimization algorithm used in machine learning to minimize a model's error or loss by repeatedly adjusting its parameters such as weights and biases. It works by calculating the gradient slope of the loss function and updating the parameters in the opposite direction of the gradient where the error decreases. This process continues until the model reaches the minimum possible error or converges to a satisfactory solution. Gradient descent is widely used to train machine learning models including linear regression, logistic regression and neural networks.",
+            "metrics": {
+                "total_words": 89,
+                "unique_words": 60,
+                "vocabulary_richness": 0.674,
+                "sentence_consistency": 4.815,
+                "repetition_score": 0.09,
+                "formality_score": 0.0,
+                "perplexity": 22.65
+            },
+            "preparedness": {
+                "preparedness_score": 55.28,
+                "response_type": "Prepared Response",
+                "confidence": 10.56,
+                "observed_traits": [
+                    "Highly Predictable Text"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.098,
+                "matched_title": "Gradient descent",
+                "matched_source": "Wikipedia",
+                "matched_content": "Gradient descent is a method for unconstrained mathematical optimization. It is a first-order iterative algorithm for minimizing a differentiable multivariate function.",
+                "plagiarism_score": 9.8,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 30.61,
+                    "vocabulary": 0.058,
+                    "repetition": 0.009,
+                    "formality": 0.005,
+                    "consistency": 1.534
+                },
+                "z_scores": {
+                    "perplexity": 0.85,
+                    "vocabulary": 0.54,
+                    "repetition": 0.41,
+                    "formality": 0.56,
+                    "consistency": 0.33
+                },
+                "overall_deviation": 0.54,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 42.49,
+                "confidence": 15.02,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Extremely low perplexity (highly predictable text).",
+                    "Moderate vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Moderate sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 55.28,
+                "plagiarism_score": 9.8,
+                "outlier_score": 0,
+                "ai_probability": 42.49,
+                "authenticity_score": 78.91,
+                "risk_level": "Low",
+                "recommendation": "Probably Genuine",
+                "explanation": "Preparedness: 55.3, Plagiarism: 9.8, Outlier: No, AI Probability: 42.5"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Gradient descent",
+                    "url": "https://en.wikipedia.org/wiki/Gradient_descent",
+                    "content": "Gradient descent is a method for unconstrained mathematical optimization. It is a first-order iterative algorithm for minimizing a differentiable multivariate function.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Supervised Learning?",
+            "answer": " Supervised learning is a type of machine learning in which a trained model is trained using laby data meaning each input is paired with the correct output. The algorithm learns the relationship between inputs and outputs during training and then uses this knowledge to make predictions on new unseen data. Supervised learning is commonly used for classification tasks such as mom email detection and regression tasks such as predicting house prices. Common algorithms include linear regression, logistic regression, decision tree, support vector machine and neural networks.",
+            "metrics": {
+                "total_words": 86,
+                "unique_words": 66,
+                "vocabulary_richness": 0.767,
+                "sentence_consistency": 4.33,
+                "repetition_score": 0.047,
+                "formality_score": 0.0,
+                "perplexity": 30.62
+            },
+            "preparedness": {
+                "preparedness_score": 46.28,
+                "response_type": "Prepared Response",
+                "confidence": 7.44,
+                "observed_traits": [
+                    "Highly Predictable Text"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.295,
+                "matched_title": "Supervised learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input-output pairs. This process involves training a statistical model using labeled data, meaning each piece of input data is provided with the correct output. The term \"supervised\" refers to the role of a teacher or supervisor who provides this training data, guiding the algorithm towards correct predictions. For instance, if you want a model to identify cats in images, supervised learning would involve feeding it many images of cats (inputs) that are explicitly labeled \"cat\" (outputs).",
+                "plagiarism_score": 29.5,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 20.09,
+                    "vocabulary": 0.04,
+                    "repetition": 0.035,
+                    "formality": 0.004,
+                    "consistency": 1.891
+                },
+                "z_scores": {
+                    "perplexity": 0.57,
+                    "vocabulary": 0.38,
+                    "repetition": 1.67,
+                    "formality": 0.5,
+                    "consistency": 0.43
+                },
+                "overall_deviation": 0.71,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 46.53,
+                "confidence": 6.94,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Low perplexity indicates structured language.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Moderate sentence variation.",
+                    "Very little repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 46.28,
+                "plagiarism_score": 29.5,
+                "outlier_score": 0,
+                "ai_probability": 46.53,
+                "authenticity_score": 68.91,
+                "risk_level": "Moderate",
+                "recommendation": "Needs Manual Review",
+                "explanation": "Preparedness: 46.3, Plagiarism: 29.5, Outlier: No, AI Probability: 46.5"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Supervised learning",
+                    "url": "https://en.wikipedia.org/wiki/Supervised_learning",
+                    "content": "In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input-output pairs. This process involves training a statistical model using labeled data, meaning each piece of input data is provided with the correct output. The term \"supervised\" refers to the role of a teacher or supervisor who provides this training data, guiding the algorithm towards correct predictions. For instance, if you want a model to identify cats in images, supervised learning would involve feeding it many images of cats (inputs) that are explicitly labeled \"cat\" (outputs).",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Self-supervised learning",
+                    "url": "https://en.wikipedia.org/wiki/Self-supervised_learning",
+                    "content": "Self-supervised learning (SSL) is a paradigm in machine learning where a model is trained on a task using the data itself to generate supervisory signals, rather than relying on externally-provided labels. In the context of neural networks, self-supervised learning aims to leverage inherent structures or relationships within the input data to create meaningful training signals. SSL tasks are designed so that solving them requires capturing essential features or relationships in the data. The input data is typically augmented or transformed in a way that creates pairs of related samples, where one sample serves as the input, and the other is used to formulate the supervisory signal. This augmentation can involve introducing noise, cropping, rotation, or other transformations. Self-supervised learning more closely imitates the way humans learn to classify objects.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Weak supervision",
+                    "url": "https://en.wikipedia.org/wiki/Weak_supervision",
+                    "content": "Weak supervision is a paradigm in machine learning, the relevance and notability of which increased with the advent of large language models due to the large amount of data required to train them. It is characterized by using a combination of a small amount of human-labeled data, followed by a large amount of unlabeled data. In other words, the desired output values are provided only for a subset of the training data. The remaining data is unlabeled or imprecisely labeled. Intuitively, it can be seen as an exam and labeled data as sample problems that the teacher solves for the class as an aid in solving another set of problems. In the transductive setting, these unsolved problems act as exam questions. In the inductive setting, they become practice problems of the sort that will make up the exam.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Neural network (machine learning)",
+                    "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+                    "content": "In machine learning, a neural network (NN) or neural net, is a computational model inspired by the structure and functions of biological neural networks.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Feature learning",
+                    "url": "https://en.wikipedia.org/wiki/Feature_learning",
+                    "content": "In machine learning (ML), feature learning or representation learning is a set of techniques that allow a system to automatically discover the representations needed for feature detection or classification from raw data. This replaces manual feature engineering and allows a machine to both learn the features and use them to perform a specific task.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Supervised Learning?",
+            "answer": " In machine learning, supervised learning is a type of machine learning paradigm where an algorithm learns to map input data to specific output based on the input output pairs. This process involves streaming a statistical model using label data, meaning each piece of input data is provided with the correct output. The term supervised refers to the role of a teacher or supervisor to provide the streaming data guiding the algorithm towards correct predictions. For example, if you want a model to identify cats in an image, supervised learning would involve reading it many images of cats inputs that are explicitly labeled cats. Outputs.",
+            "metrics": {
+                "total_words": 104,
+                "unique_words": 67,
+                "vocabulary_richness": 0.644,
+                "sentence_consistency": 10.323,
+                "repetition_score": 0.058,
+                "formality_score": 0.0,
+                "perplexity": 39.13
+            },
+            "preparedness": {
+                "preparedness_score": 39.04,
+                "response_type": "Natural Response",
+                "confidence": 21.92,
+                "observed_traits": [
+                    "Highly Predictable Text"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.821,
+                "matched_title": "Supervised learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input-output pairs. This process involves training a statistical model using labeled data, meaning each piece of input data is provided with the correct output. The term \"supervised\" refers to the role of a teacher or supervisor who provides this training data, guiding the algorithm towards correct predictions. For instance, if you want a model to identify cats in images, supervised learning would involve feeding it many images of cats (inputs) that are explicitly labeled \"cat\" (outputs).",
+                "plagiarism_score": 82.1,
+                "plagiarism_flag": true,
+                "confidence": "Very High",
+                "explanation": "Similarity exceeded the high threshold."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 10.04,
+                    "vocabulary": 0.086,
+                    "repetition": 0.021,
+                    "formality": 0.004,
+                    "consistency": 4.247
+                },
+                "z_scores": {
+                    "perplexity": 0.29,
+                    "vocabulary": 0.86,
+                    "repetition": 0.95,
+                    "formality": 0.5,
+                    "consistency": 0.99
+                },
+                "overall_deviation": 0.72,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 47.32,
+                "confidence": 5.36,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Low perplexity indicates structured language.",
+                    "Moderate vocabulary richness.",
+                    "Mostly conversational language.",
+                    "High sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Very high similarity to external sources.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 39.04,
+                "plagiarism_score": 82.1,
+                "outlier_score": 0,
+                "ai_probability": 47.32,
+                "authenticity_score": 48.25,
+                "risk_level": "High",
+                "recommendation": "Suspicious",
+                "explanation": "Preparedness: 39.0, Plagiarism: 82.1, Outlier: No, AI Probability: 47.3"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Supervised learning",
+                    "url": "https://en.wikipedia.org/wiki/Supervised_learning",
+                    "content": "In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input-output pairs. This process involves training a statistical model using labeled data, meaning each piece of input data is provided with the correct output. The term \"supervised\" refers to the role of a teacher or supervisor who provides this training data, guiding the algorithm towards correct predictions. For instance, if you want a model to identify cats in images, supervised learning would involve feeding it many images of cats (inputs) that are explicitly labeled \"cat\" (outputs).",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Self-supervised learning",
+                    "url": "https://en.wikipedia.org/wiki/Self-supervised_learning",
+                    "content": "Self-supervised learning (SSL) is a paradigm in machine learning where a model is trained on a task using the data itself to generate supervisory signals, rather than relying on externally-provided labels. In the context of neural networks, self-supervised learning aims to leverage inherent structures or relationships within the input data to create meaningful training signals. SSL tasks are designed so that solving them requires capturing essential features or relationships in the data. The input data is typically augmented or transformed in a way that creates pairs of related samples, where one sample serves as the input, and the other is used to formulate the supervisory signal. This augmentation can involve introducing noise, cropping, rotation, or other transformations. Self-supervised learning more closely imitates the way humans learn to classify objects.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Weak supervision",
+                    "url": "https://en.wikipedia.org/wiki/Weak_supervision",
+                    "content": "Weak supervision is a paradigm in machine learning, the relevance and notability of which increased with the advent of large language models due to the large amount of data required to train them. It is characterized by using a combination of a small amount of human-labeled data, followed by a large amount of unlabeled data. In other words, the desired output values are provided only for a subset of the training data. The remaining data is unlabeled or imprecisely labeled. Intuitively, it can be seen as an exam and labeled data as sample problems that the teacher solves for the class as an aid in solving another set of problems. In the transductive setting, these unsolved problems act as exam questions. In the inductive setting, they become practice problems of the sort that will make up the exam.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Feature learning",
+                    "url": "https://en.wikipedia.org/wiki/Feature_learning",
+                    "content": "In machine learning (ML), feature learning or representation learning is a set of techniques that allow a system to automatically discover the representations needed for feature detection or classification from raw data. This replaces manual feature engineering and allows a machine to both learn the features and use them to perform a specific task.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Neural network (machine learning)",
+                    "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+                    "content": "In machine learning, a neural network (NN) or neural net, is a computational model inspired by the structure and functions of biological neural networks.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Supervised Learning?",
+            "answer": " SuperM I is learning is when we are feeding the rules to the model. So we are giving it the inputs and the outputs and the model is predicting them. So we are giving the features to the model and basically the model is working according to that. And in unsupervised learning, the model is extracting the rules on its own.",
+            "metrics": {
+                "total_words": 61,
+                "unique_words": 31,
+                "vocabulary_richness": 0.508,
+                "sentence_consistency": 1.92,
+                "repetition_score": 0.164,
+                "formality_score": 0.0,
+                "perplexity": 28.73
+            },
+            "preparedness": {
+                "preparedness_score": 58.44,
+                "response_type": "Prepared Response",
+                "confidence": 16.88,
+                "observed_traits": [
+                    "Low Sentence Variation",
+                    "Highly Predictable Text"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.305,
+                "matched_title": "Self-supervised learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "Self-supervised learning (SSL) is a paradigm in machine learning where a model is trained on a task using the data itself to generate supervisory signals, rather than relying on externally-provided labels. In the context of neural networks, self-supervised learning aims to leverage inherent structures or relationships within the input data to create meaningful training signals. SSL tasks are designed so that solving them requires capturing essential features or relationships in the data. The input data is typically augmented or transformed in a way that creates pairs of related samples, where one sample serves as the input, and the other is used to formulate the supervisory signal. This augmentation can involve introducing noise, cropping, rotation, or other transformations. Self-supervised learning more closely imitates the way humans learn to classify objects.",
+                "plagiarism_score": 30.5,
+                "plagiarism_flag": false,
+                "confidence": "Low",
+                "explanation": "Minor overlap detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 19.72,
+                    "vocabulary": 0.216,
+                    "repetition": 0.086,
+                    "formality": 0.004,
+                    "consistency": 4.459
+                },
+                "z_scores": {
+                    "perplexity": 0.6,
+                    "vocabulary": 2.18,
+                    "repetition": 3.91,
+                    "formality": 0.5,
+                    "consistency": 1.05
+                },
+                "overall_deviation": 1.65,
+                "flag_percentage": 40.0,
+                "flagged_metrics": [
+                    "vocabulary",
+                    "repetition"
+                ],
+                "is_outlier": true
+            },
+            "ai_flag": {
+                "ai_probability": 47.94,
+                "confidence": 4.12,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Low perplexity indicates structured language.",
+                    "Limited vocabulary.",
+                    "Mostly conversational language.",
+                    "Low sentence variation.",
+                    "Noticeable repeated wording.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response deviates significantly from candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 58.44,
+                "plagiarism_score": 30.5,
+                "outlier_score": 100,
+                "ai_probability": 47.94,
+                "authenticity_score": 47.06,
+                "risk_level": "High",
+                "recommendation": "Suspicious",
+                "explanation": "Preparedness: 58.4, Plagiarism: 30.5, Outlier: Yes, AI Probability: 47.9"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Supervised learning",
+                    "url": "https://en.wikipedia.org/wiki/Supervised_learning",
+                    "content": "In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input-output pairs. This process involves training a statistical model using labeled data, meaning each piece of input data is provided with the correct output. The term \"supervised\" refers to the role of a teacher or supervisor who provides this training data, guiding the algorithm towards correct predictions. For instance, if you want a model to identify cats in images, supervised learning would involve feeding it many images of cats (inputs) that are explicitly labeled \"cat\" (outputs).",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Self-supervised learning",
+                    "url": "https://en.wikipedia.org/wiki/Self-supervised_learning",
+                    "content": "Self-supervised learning (SSL) is a paradigm in machine learning where a model is trained on a task using the data itself to generate supervisory signals, rather than relying on externally-provided labels. In the context of neural networks, self-supervised learning aims to leverage inherent structures or relationships within the input data to create meaningful training signals. SSL tasks are designed so that solving them requires capturing essential features or relationships in the data. The input data is typically augmented or transformed in a way that creates pairs of related samples, where one sample serves as the input, and the other is used to formulate the supervisory signal. This augmentation can involve introducing noise, cropping, rotation, or other transformations. Self-supervised learning more closely imitates the way humans learn to classify objects.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Weak supervision",
+                    "url": "https://en.wikipedia.org/wiki/Weak_supervision",
+                    "content": "Weak supervision is a paradigm in machine learning, the relevance and notability of which increased with the advent of large language models due to the large amount of data required to train them. It is characterized by using a combination of a small amount of human-labeled data, followed by a large amount of unlabeled data. In other words, the desired output values are provided only for a subset of the training data. The remaining data is unlabeled or imprecisely labeled. Intuitively, it can be seen as an exam and labeled data as sample problems that the teacher solves for the class as an aid in solving another set of problems. In the transductive setting, these unsolved problems act as exam questions. In the inductive setting, they become practice problems of the sort that will make up the exam.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Neural network (machine learning)",
+                    "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+                    "content": "In machine learning, a neural network (NN) or neural net, is a computational model inspired by the structure and functions of biological neural networks.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Feature learning",
+                    "url": "https://en.wikipedia.org/wiki/Feature_learning",
+                    "content": "In machine learning (ML), feature learning or representation learning is a set of techniques that allow a system to automatically discover the representations needed for feature detection or classification from raw data. This replaces manual feature engineering and allows a machine to both learn the features and use them to perform a specific task.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Unsupervised Learning?",
+            "answer": " Unsupervised learning in wall streaming algorithms on data without any labels. This lets the models find hidden patterns, structures or connections in the data by themselves. Common tasks such as string which groups similar data together, damage nullity reduction, which reduces the number of variables that keeps important information and association rule mining, finds the relationship between the variables.",
+            "metrics": {
+                "total_words": 59,
+                "unique_words": 50,
+                "vocabulary_richness": 0.847,
+                "sentence_consistency": 9.568,
+                "repetition_score": 0.085,
+                "formality_score": 0.0,
+                "perplexity": 154.78
+            },
+            "preparedness": {
+                "preparedness_score": 33.64,
+                "response_type": "Natural Response",
+                "confidence": 32.72,
+                "observed_traits": [
+                    "Rich Vocabulary"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.197,
+                "matched_title": "Unsupervised learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data. Other frameworks in the spectrum of supervisions include weak- or semi-supervision, where a small portion of the data is tagged, and self-supervision. Some researchers consider self-supervised learning a form of unsupervised learning.",
+                "plagiarism_score": 19.7,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 107.64,
+                    "vocabulary": 0.137,
+                    "repetition": 0.001,
+                    "formality": 0.004,
+                    "consistency": 3.486
+                },
+                "z_scores": {
+                    "perplexity": 3.34,
+                    "vocabulary": 1.23,
+                    "repetition": 0.03,
+                    "formality": 0.5,
+                    "consistency": 0.82
+                },
+                "overall_deviation": 1.18,
+                "flag_percentage": 20.0,
+                "flagged_metrics": [
+                    "perplexity"
+                ],
+                "is_outlier": true
+            },
+            "ai_flag": {
+                "ai_probability": 34.3,
+                "confidence": 31.4,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "High perplexity suggests natural variation.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "High sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response deviates significantly from candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 33.64,
+                "plagiarism_score": 19.7,
+                "outlier_score": 100,
+                "ai_probability": 34.3,
+                "authenticity_score": 44.77,
+                "risk_level": "High",
+                "recommendation": "Suspicious",
+                "explanation": "Preparedness: 33.6, Plagiarism: 19.7, Outlier: Yes, AI Probability: 34.3"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Unsupervised learning",
+                    "url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+                    "content": "Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data. Other frameworks in the spectrum of supervisions include weak- or semi-supervision, where a small portion of the data is tagged, and self-supervision. Some researchers consider self-supervised learning a form of unsupervised learning.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Neural network (machine learning)",
+                    "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+                    "content": "In machine learning, a neural network (NN) or neural net, is a computational model inspired by the structure and functions of biological neural networks.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Feature learning",
+                    "url": "https://en.wikipedia.org/wiki/Feature_learning",
+                    "content": "In machine learning (ML), feature learning or representation learning is a set of techniques that allow a system to automatically discover the representations needed for feature detection or classification from raw data. This replaces manual feature engineering and allows a machine to both learn the features and use them to perform a specific task.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Machine learning",
+                    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+                    "content": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "History of artificial neural networks",
+                    "url": "https://en.wikipedia.org/wiki/History_of_artificial_neural_networks",
+                    "content": "Artificial neural networks (ANNs) are models created using machine learning to perform a number of tasks. While the computational implementations of ANNs relate to earlier discoveries in mathematics, their creation was inspired by biological neural circuitry. The first implementation of ANNs was the perceptron by Frank Rosenblatt. Little research was conducted on ANNs in the 1970s and 1980s, with the AAAI calling this period an \"AI winter\".",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Unsupervised Learning?",
+            "answer": " Unsupervised learning is a type of machine learning in which the model is trained on unlabeled data. Meaning the input data has no predefined output or target values. The algorithm learns by identifying hidden patterns, relationships or groupings within the data without human guidance. It's commonly used for clustering such as customer segmentation, association such as market basket analysis and dimensionality reduction such as data compression and visualization. Common unsupervised learning algorithms include key means clustering hierarchical clustering, DB scan and principle component analysis.",
+            "metrics": {
+                "total_words": 85,
+                "unique_words": 65,
+                "vocabulary_richness": 0.765,
+                "sentence_consistency": 4.517,
+                "repetition_score": 0.047,
+                "formality_score": 0.0,
+                "perplexity": 43.36
+            },
+            "preparedness": {
+                "preparedness_score": 46.24,
+                "response_type": "Prepared Response",
+                "confidence": 7.52,
+                "observed_traits": []
+            },
+            "similarity": {
+                "highest_similarity": 0.251,
+                "matched_title": "Unsupervised learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data. Other frameworks in the spectrum of supervisions include weak- or semi-supervision, where a small portion of the data is tagged, and self-supervision. Some researchers consider self-supervised learning a form of unsupervised learning.",
+                "plagiarism_score": 25.1,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 10.5,
+                    "vocabulary": 0.047,
+                    "repetition": 0.037,
+                    "formality": 0.003,
+                    "consistency": 1.783
+                },
+                "z_scores": {
+                    "perplexity": 0.26,
+                    "vocabulary": 0.42,
+                    "repetition": 1.23,
+                    "formality": 0.43,
+                    "consistency": 0.42
+                },
+                "overall_deviation": 0.55,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 38.64,
+                "confidence": 22.72,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Moderate sentence variation.",
+                    "Very little repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 46.24,
+                "plagiarism_score": 25.1,
+                "outlier_score": 0,
+                "ai_probability": 38.64,
+                "authenticity_score": 71.22,
+                "risk_level": "Low",
+                "recommendation": "Probably Genuine",
+                "explanation": "Preparedness: 46.2, Plagiarism: 25.1, Outlier: No, AI Probability: 38.6"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Unsupervised learning",
+                    "url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+                    "content": "Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data. Other frameworks in the spectrum of supervisions include weak- or semi-supervision, where a small portion of the data is tagged, and self-supervision. Some researchers consider self-supervised learning a form of unsupervised learning.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Neural network (machine learning)",
+                    "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+                    "content": "In machine learning, a neural network (NN) or neural net, is a computational model inspired by the structure and functions of biological neural networks.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Feature learning",
+                    "url": "https://en.wikipedia.org/wiki/Feature_learning",
+                    "content": "In machine learning (ML), feature learning or representation learning is a set of techniques that allow a system to automatically discover the representations needed for feature detection or classification from raw data. This replaces manual feature engineering and allows a machine to both learn the features and use them to perform a specific task.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Machine learning",
+                    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+                    "content": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "History of artificial neural networks",
+                    "url": "https://en.wikipedia.org/wiki/History_of_artificial_neural_networks",
+                    "content": "Artificial neural networks (ANNs) are models created using machine learning to perform a number of tasks. While the computational implementations of ANNs relate to earlier discoveries in mathematics, their creation was inspired by biological neural circuitry. The first implementation of ANNs was the perceptron by Frank Rosenblatt. Little research was conducted on ANNs in the 1970s and 1980s, with the AAAI calling this period an \"AI winter\".",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Unsupervised Learning?",
+            "answer": " Supervised learning is a type of machine learning in which we are not feeding the labels to the model. The model is extracting features on its own and learning on its own and identifying patterns and hence it is trying to find the output accordingly by clustering the data together.",
+            "metrics": {
+                "total_words": 50,
+                "unique_words": 35,
+                "vocabulary_richness": 0.7,
+                "sentence_consistency": 6.0,
+                "repetition_score": 0.1,
+                "formality_score": 0.04,
+                "perplexity": 43.93
+            },
+            "preparedness": {
+                "preparedness_score": 45.0,
+                "response_type": "Prepared Response",
+                "confidence": 10.0,
+                "observed_traits": [
+                    "Academic / Formal Language"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.272,
+                "matched_title": "Unsupervised learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data. Other frameworks in the spectrum of supervisions include weak- or semi-supervision, where a small portion of the data is tagged, and self-supervision. Some researchers consider self-supervised learning a form of unsupervised learning.",
+                "plagiarism_score": 27.2,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 9.32,
+                    "vocabulary": 0.021,
+                    "repetition": 0.018,
+                    "formality": 0.037,
+                    "consistency": 0.195
+                },
+                "z_scores": {
+                    "perplexity": 0.23,
+                    "vocabulary": 0.19,
+                    "repetition": 0.6,
+                    "formality": 5.29,
+                    "consistency": 0.05
+                },
+                "overall_deviation": 1.27,
+                "flag_percentage": 20.0,
+                "flagged_metrics": [
+                    "formality"
+                ],
+                "is_outlier": true
+            },
+            "ai_flag": {
+                "ai_probability": 51.94,
+                "confidence": 3.88,
+                "risk_level": "Moderate",
+                "recommendation": "Mixed linguistic characteristics detected.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Above-average vocabulary richness.",
+                    "Formal language detected.",
+                    "Moderate sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response deviates significantly from candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 45.0,
+                "plagiarism_score": 27.2,
+                "outlier_score": 100,
+                "ai_probability": 51.94,
+                "authenticity_score": 43.79,
+                "risk_level": "High",
+                "recommendation": "Suspicious",
+                "explanation": "Preparedness: 45.0, Plagiarism: 27.2, Outlier: Yes, AI Probability: 51.9"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Unsupervised learning",
+                    "url": "https://en.wikipedia.org/wiki/Unsupervised_learning",
+                    "content": "Unsupervised learning is a framework in machine learning where, in contrast to supervised learning, algorithms learn patterns exclusively from unlabeled data. Other frameworks in the spectrum of supervisions include weak- or semi-supervision, where a small portion of the data is tagged, and self-supervision. Some researchers consider self-supervised learning a form of unsupervised learning.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Neural network (machine learning)",
+                    "url": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)",
+                    "content": "In machine learning, a neural network (NN) or neural net, is a computational model inspired by the structure and functions of biological neural networks.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Feature learning",
+                    "url": "https://en.wikipedia.org/wiki/Feature_learning",
+                    "content": "In machine learning (ML), feature learning or representation learning is a set of techniques that allow a system to automatically discover the representations needed for feature detection or classification from raw data. This replaces manual feature engineering and allows a machine to both learn the features and use them to perform a specific task.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "Machine learning",
+                    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+                    "content": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                },
+                {
+                    "title": "History of artificial neural networks",
+                    "url": "https://en.wikipedia.org/wiki/History_of_artificial_neural_networks",
+                    "content": "Artificial neural networks (ANNs) are models created using machine learning to perform a number of tasks. While the computational implementations of ANNs relate to earlier discoveries in mathematics, their creation was inspired by biological neural circuitry. The first implementation of ANNs was the perceptron by Frank Rosenblatt. Little research was conducted on ANNs in the 1970s and 1980s, with the AAAI calling this period an \"AI winter\".",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Reinforcement Learning?",
+            "answer": " Reinforcement learning is basically a type of machine learning wherein we are telling on the model when an loose like reward and punishment system. So when it's performing good we are giving it a reward which means a good score and when the model is not a performing good we are giving it a punishment which means we are like deducting some points and we are giving it heavy our penalty to the model.",
+            "metrics": {
+                "total_words": 75,
+                "unique_words": 40,
+                "vocabulary_richness": 0.533,
+                "sentence_consistency": 13.5,
+                "repetition_score": 0.067,
+                "formality_score": 0.0,
+                "perplexity": 60.01
+            },
+            "preparedness": {
+                "preparedness_score": 27.0,
+                "response_type": "Natural Response",
+                "confidence": 46.0,
+                "observed_traits": []
+            },
+            "similarity": {
+                "highest_similarity": 0.151,
+                "matched_title": "Reinforcement learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "In machine learning and optimal control, reinforcement learning (RL) is concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal. Reinforcement learning is one of the three basic machine learning paradigms, alongside supervised learning and unsupervised learning.",
+                "plagiarism_score": 15.1,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 7.28,
+                    "vocabulary": 0.187,
+                    "repetition": 0.016,
+                    "formality": 0.005,
+                    "consistency": 7.316
+                },
+                "z_scores": {
+                    "perplexity": 0.19,
+                    "vocabulary": 1.76,
+                    "repetition": 0.53,
+                    "formality": 0.45,
+                    "consistency": 1.84
+                },
+                "overall_deviation": 0.95,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 16.72,
+                "confidence": 66.56,
+                "risk_level": "Very Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "High perplexity suggests natural variation.",
+                    "Limited vocabulary.",
+                    "Mostly conversational language.",
+                    "High sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 27.0,
+                "plagiarism_score": 15.1,
+                "outlier_score": 0,
+                "ai_probability": 16.72,
+                "authenticity_score": 71.14,
+                "risk_level": "Low",
+                "recommendation": "Probably Genuine",
+                "explanation": "Preparedness: 27.0, Plagiarism: 15.1, Outlier: No, AI Probability: 16.7"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Reinforcement learning",
+                    "url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+                    "content": "In machine learning and optimal control, reinforcement learning (RL) is concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal. Reinforcement learning is one of the three basic machine learning paradigms, alongside supervised learning and unsupervised learning.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Reinforcement Learning?",
+            "answer": " Reinforcement learning is a type of machine learning in which an agent learns to make decisions by interacting with an environment and receiving rewards for correct actions and penalties for incorrect ones. The agent improves its behavior over time by trying different actions and learning which one maximizes the total reward. Unlike supervised learning, reinforcement learning does not use labelled data. Instead, it learns through trial and error. It is widely used in robotics, game playing, autonomous vehicles, recommendation systems and resource optimization.",
+            "metrics": {
+                "total_words": 83,
+                "unique_words": 63,
+                "vocabulary_richness": 0.759,
+                "sentence_consistency": 8.732,
+                "repetition_score": 0.06,
+                "formality_score": 0.0,
+                "perplexity": 22.24
+            },
+            "preparedness": {
+                "preparedness_score": 51.38,
+                "response_type": "Prepared Response",
+                "confidence": 2.76,
+                "observed_traits": [
+                    "Highly Predictable Text"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.342,
+                "matched_title": "Reinforcement learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "In machine learning and optimal control, reinforcement learning (RL) is concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal. Reinforcement learning is one of the three basic machine learning paradigms, alongside supervised learning and unsupervised learning.",
+                "plagiarism_score": 34.2,
+                "plagiarism_flag": false,
+                "confidence": "Low",
+                "explanation": "Minor overlap detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 30.87,
+                    "vocabulary": 0.049,
+                    "repetition": 0.022,
+                    "formality": 0.005,
+                    "consistency": 2.163
+                },
+                "z_scores": {
+                    "perplexity": 0.82,
+                    "vocabulary": 0.44,
+                    "repetition": 0.76,
+                    "formality": 0.45,
+                    "consistency": 0.51
+                },
+                "overall_deviation": 0.6,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 46.98,
+                "confidence": 6.04,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Extremely low perplexity (highly predictable text).",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "High sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 51.38,
+                "plagiarism_score": 34.2,
+                "outlier_score": 0,
+                "ai_probability": 46.98,
+                "authenticity_score": 68.75,
+                "risk_level": "Moderate",
+                "recommendation": "Needs Manual Review",
+                "explanation": "Preparedness: 51.4, Plagiarism: 34.2, Outlier: No, AI Probability: 47.0"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Reinforcement learning",
+                    "url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+                    "content": "In machine learning and optimal control, reinforcement learning (RL) is concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal. Reinforcement learning is one of the three basic machine learning paradigms, alongside supervised learning and unsupervised learning.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Reinforcement Learning?",
+            "answer": " Supervised learning from human feedback in machine learning reinforcement learning from human data is a technique to align an agent with human preferences. It involves training a reward model to represent preferences which can be then used to train other models through reinforcement learning.",
+            "metrics": {
+                "total_words": 44,
+                "unique_words": 33,
+                "vocabulary_richness": 0.75,
+                "sentence_consistency": 1.0,
+                "repetition_score": 0.091,
+                "formality_score": 0.0,
+                "perplexity": 52.79
+            },
+            "preparedness": {
+                "preparedness_score": 51.82,
+                "response_type": "Prepared Response",
+                "confidence": 3.64,
+                "observed_traits": [
+                    "Low Sentence Variation"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.29,
+                "matched_title": "Reinforcement learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "In machine learning and optimal control, reinforcement learning (RL) is concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal. Reinforcement learning is one of the three basic machine learning paradigms, alongside supervised learning and unsupervised learning.",
+                "plagiarism_score": 29.0,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 1.22,
+                    "vocabulary": 0.037,
+                    "repetition": 0.01,
+                    "formality": 0.005,
+                    "consistency": 5.677
+                },
+                "z_scores": {
+                    "perplexity": 0.03,
+                    "vocabulary": 0.34,
+                    "repetition": 0.34,
+                    "formality": 0.45,
+                    "consistency": 1.38
+                },
+                "overall_deviation": 0.51,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 42.98,
+                "confidence": 14.04,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Very uniform sentence lengths.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 51.82,
+                "plagiarism_score": 29.0,
+                "outlier_score": 0,
+                "ai_probability": 42.98,
+                "authenticity_score": 71.1,
+                "risk_level": "Low",
+                "recommendation": "Probably Genuine",
+                "explanation": "Preparedness: 51.8, Plagiarism: 29.0, Outlier: No, AI Probability: 43.0"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Reinforcement learning",
+                    "url": "https://en.wikipedia.org/wiki/Reinforcement_learning",
+                    "content": "In machine learning and optimal control, reinforcement learning (RL) is concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal. Reinforcement learning is one of the three basic machine learning paradigms, alongside supervised learning and unsupervised learning.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Neural Network?",
+            "answer": " In machine learning, a neural network on neural net is a computational model inspired by structure and function of a biological neural networks. A neural network consists of connected units or nodes called artificial neurons which loosely model the neurons in the brain. Artificial neuron models that mimic biological neurons more closely have also been recently investigated and shown to significantly improve performance.",
+            "metrics": {
+                "total_words": 63,
+                "unique_words": 47,
+                "vocabulary_richness": 0.746,
+                "sentence_consistency": 1.414,
+                "repetition_score": 0.063,
+                "formality_score": 0.0,
+                "perplexity": 35.63
+            },
+            "preparedness": {
+                "preparedness_score": 51.18,
+                "response_type": "Prepared Response",
+                "confidence": 2.36,
+                "observed_traits": [
+                    "Low Sentence Variation",
+                    "Highly Predictable Text"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.347,
+                "matched_title": "Neural network",
+                "matched_source": "Wikipedia",
+                "matched_content": "\n\nA neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.\nIn machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.",
+                "plagiarism_score": 34.7,
+                "plagiarism_flag": false,
+                "confidence": "Low",
+                "explanation": "Minor overlap detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 16.0,
+                    "vocabulary": 0.032,
+                    "repetition": 0.018,
+                    "formality": 0.004,
+                    "consistency": 4.993
+                },
+                "z_scores": {
+                    "perplexity": 0.44,
+                    "vocabulary": 0.3,
+                    "repetition": 0.64,
+                    "formality": 0.4,
+                    "consistency": 1.19
+                },
+                "overall_deviation": 0.59,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 51.06,
+                "confidence": 2.12,
+                "risk_level": "Moderate",
+                "recommendation": "Mixed linguistic characteristics detected.",
+                "explanation": [
+                    "Low perplexity indicates structured language.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Very uniform sentence lengths.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 51.18,
+                "plagiarism_score": 34.7,
+                "outlier_score": 0,
+                "ai_probability": 51.06,
+                "authenticity_score": 68.1,
+                "risk_level": "Moderate",
+                "recommendation": "Needs Manual Review",
+                "explanation": "Preparedness: 51.2, Plagiarism: 34.7, Outlier: No, AI Probability: 51.1"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Neural network",
+                    "url": "https://en.wikipedia.org/wiki/Neural_network",
+                    "content": "\n\nA neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.\nIn machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Neural Network?",
+            "answer": " Neural networks are basically algorithms that mimic the human brain and it has neurons which are interconnected and the neurons have some bits and biases which are used to compute and make decisions.",
+            "metrics": {
+                "total_words": 33,
+                "unique_words": 25,
+                "vocabulary_richness": 0.758,
+                "sentence_consistency": 0,
+                "repetition_score": 0.121,
+                "formality_score": 0.0,
+                "perplexity": 49.22
+            },
+            "preparedness": {
+                "preparedness_score": 52.58,
+                "response_type": "Prepared Response",
+                "confidence": 5.16,
+                "observed_traits": [
+                    "Low Sentence Variation"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.152,
+                "matched_title": "Neural network",
+                "matched_source": "Wikipedia",
+                "matched_content": "\n\nA neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.\nIn machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.",
+                "plagiarism_score": 15.2,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 1.68,
+                    "vocabulary": 0.042,
+                    "repetition": 0.041,
+                    "formality": 0.004,
+                    "consistency": 6.18
+                },
+                "z_scores": {
+                    "perplexity": 0.05,
+                    "vocabulary": 0.4,
+                    "repetition": 1.46,
+                    "formality": 0.4,
+                    "consistency": 1.46
+                },
+                "overall_deviation": 0.75,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 36.3,
+                "confidence": 27.4,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Very uniform sentence lengths.",
+                    "Noticeable repeated wording.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 52.58,
+                "plagiarism_score": 15.2,
+                "outlier_score": 0,
+                "ai_probability": 36.3,
+                "authenticity_score": 76.82,
+                "risk_level": "Low",
+                "recommendation": "Probably Genuine",
+                "explanation": "Preparedness: 52.6, Plagiarism: 15.2, Outlier: No, AI Probability: 36.3"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Neural network",
+                    "url": "https://en.wikipedia.org/wiki/Neural_network",
+                    "content": "\n\nA neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.\nIn machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Neural Network?",
+            "answer": " And at school, a neural network or artificial neural network is a method and artificial intelligence that teaches computers to process data in a way that is inspired by human beings. It is the backbone of deep learning which powers everything from facial recognition and model translation to self-driving cars and child equity. How it works, the brain analogy. Just like your brain uses interconnected cells called neurons to process information and artificial neural network uses layers of interconnected software, code blocks, called nodes.",
+            "metrics": {
+                "total_words": 85,
+                "unique_words": 60,
+                "vocabulary_richness": 0.706,
+                "sentence_consistency": 9.284,
+                "repetition_score": 0.059,
+                "formality_score": 0.0,
+                "perplexity": 51.45
+            },
+            "preparedness": {
+                "preparedness_score": 40.3,
+                "response_type": "Natural Response",
+                "confidence": 19.4,
+                "observed_traits": []
+            },
+            "similarity": {
+                "highest_similarity": 0.275,
+                "matched_title": "Neural network",
+                "matched_source": "Wikipedia",
+                "matched_content": "\n\nA neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.\nIn machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.",
+                "plagiarism_score": 27.5,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 0.62,
+                    "vocabulary": 0.012,
+                    "repetition": 0.023,
+                    "formality": 0.004,
+                    "consistency": 3.373
+                },
+                "z_scores": {
+                    "perplexity": 0.02,
+                    "vocabulary": 0.12,
+                    "repetition": 0.82,
+                    "formality": 0.4,
+                    "consistency": 0.78
+                },
+                "overall_deviation": 0.43,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 32.53,
+                "confidence": 34.94,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "High sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 40.3,
+                "plagiarism_score": 27.5,
+                "outlier_score": 0,
+                "ai_probability": 32.53,
+                "authenticity_score": 69.21,
+                "risk_level": "Moderate",
+                "recommendation": "Needs Manual Review",
+                "explanation": "Preparedness: 40.3, Plagiarism: 27.5, Outlier: No, AI Probability: 32.5"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Neural network",
+                    "url": "https://en.wikipedia.org/wiki/Neural_network",
+                    "content": "\n\nA neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.\nIn machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Random Forest?",
+            "answer": " Random Forest is an Ensemble Learning approach in which there are multiple trees in which there are multiple models and we are getting the maximum or the average vote of each and everyone. It can be used for regression tasks and classification tasks and then we are getting the final output through multiple models outputs.",
+            "metrics": {
+                "total_words": 55,
+                "unique_words": 38,
+                "vocabulary_richness": 0.691,
+                "sentence_consistency": 5.5,
+                "repetition_score": 0.073,
+                "formality_score": 0.0,
+                "perplexity": 59.03
+            },
+            "preparedness": {
+                "preparedness_score": 40.28,
+                "response_type": "Natural Response",
+                "confidence": 19.44,
+                "observed_traits": []
+            },
+            "similarity": {
+                "highest_similarity": 0.263,
+                "matched_title": "Random forest",
+                "matched_source": "Wikipedia",
+                "matched_content": "Random forests or random decision forests is an ensemble learning method for classification, regression and other tasks that works by creating a multitude of decision trees during training. For classification tasks, the output of the random forest is the class selected by most trees. For regression tasks, the output is the average of the predictions of the trees. Random forests correct for decision trees' habit of overfitting to their training set.",
+                "plagiarism_score": 26.3,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 8.18,
+                    "vocabulary": 0.026,
+                    "repetition": 0.008,
+                    "formality": 0.004,
+                    "consistency": 0.552
+                },
+                "z_scores": {
+                    "perplexity": 0.24,
+                    "vocabulary": 0.26,
+                    "repetition": 0.29,
+                    "formality": 0.4,
+                    "consistency": 0.13
+                },
+                "overall_deviation": 0.26,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 32.29,
+                "confidence": 35.42,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Moderate vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Moderate sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 40.28,
+                "plagiarism_score": 26.3,
+                "outlier_score": 0,
+                "ai_probability": 32.29,
+                "authenticity_score": 69.65,
+                "risk_level": "Moderate",
+                "recommendation": "Needs Manual Review",
+                "explanation": "Preparedness: 40.3, Plagiarism: 26.3, Outlier: No, AI Probability: 32.3"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Random forest",
+                    "url": "https://en.wikipedia.org/wiki/Random_forest",
+                    "content": "Random forests or random decision forests is an ensemble learning method for classification, regression and other tasks that works by creating a multitude of decision trees during training. For classification tasks, the output of the random forest is the class selected by most trees. For regression tasks, the output is the average of the predictions of the trees. Random forests correct for decision trees' habit of overfitting to their training set.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Random Forest?",
+            "answer": " Random Forest is a supervised machine learning algorithm that can be used for both regression and classification tasks. It works by creating multiple decision trees using different sub-random subsets of the training data and features, then combine their predictions to produce a more accurate and reliable result. More classification it uses majority voting. While for regression it calculates the average of the predictions. The random forest heads reduce overfitting improbacuracy and is widely used in applications such as fraud detection, medical diagnosis and customer behavior prediction.",
+            "metrics": {
+                "total_words": 87,
+                "unique_words": 66,
+                "vocabulary_richness": 0.759,
+                "sentence_consistency": 8.663,
+                "repetition_score": 0.057,
+                "formality_score": 0.0,
+                "perplexity": 54.24
+            },
+            "preparedness": {
+                "preparedness_score": 41.32,
+                "response_type": "Natural Response",
+                "confidence": 17.36,
+                "observed_traits": []
+            },
+            "similarity": {
+                "highest_similarity": 0.36,
+                "matched_title": "Random forest",
+                "matched_source": "Wikipedia",
+                "matched_content": "Random forests or random decision forests is an ensemble learning method for classification, regression and other tasks that works by creating a multitude of decision trees during training. For classification tasks, the output of the random forest is the class selected by most trees. For regression tasks, the output is the average of the predictions of the trees. Random forests correct for decision trees' habit of overfitting to their training set.",
+                "plagiarism_score": 36.0,
+                "plagiarism_flag": false,
+                "confidence": "Low",
+                "explanation": "Minor overlap detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 3.06,
+                    "vocabulary": 0.043,
+                    "repetition": 0.024,
+                    "formality": 0.004,
+                    "consistency": 2.633
+                },
+                "z_scores": {
+                    "perplexity": 0.09,
+                    "vocabulary": 0.44,
+                    "repetition": 0.86,
+                    "formality": 0.4,
+                    "consistency": 0.62
+                },
+                "overall_deviation": 0.48,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 34.33,
+                "confidence": 31.34,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "High sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minor overlap with reference material.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 41.32,
+                "plagiarism_score": 36.0,
+                "outlier_score": 0,
+                "ai_probability": 34.33,
+                "authenticity_score": 66.36,
+                "risk_level": "Moderate",
+                "recommendation": "Needs Manual Review",
+                "explanation": "Preparedness: 41.3, Plagiarism: 36.0, Outlier: No, AI Probability: 34.3"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Random forest",
+                    "url": "https://en.wikipedia.org/wiki/Random_forest",
+                    "content": "Random forests or random decision forests is an ensemble learning method for classification, regression and other tasks that works by creating a multitude of decision trees during training. For classification tasks, the output of the random forest is the class selected by most trees. For regression tasks, the output is the average of the predictions of the trees. Random forests correct for decision trees' habit of overfitting to their training set.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Random Forest?",
+            "answer": " you This class of course is an ensemble learning method for classification, regression and other tasks that works by creating a multitude of decision trees. The Outwards of the Ranu Forest is the class selected by most trees for regression. The Outwards is the average of the predictions of the trees. Ranu Forest is correct for decision-grees habit of overfitting to their training set.",
+            "metrics": {
+                "total_words": 65,
+                "unique_words": 40,
+                "vocabulary_richness": 0.615,
+                "sentence_consistency": 5.262,
+                "repetition_score": 0.108,
+                "formality_score": 0.0,
+                "perplexity": 109.5
+            },
+            "preparedness": {
+                "preparedness_score": 29.46,
+                "response_type": "Natural Response",
+                "confidence": 41.08,
+                "observed_traits": []
+            },
+            "similarity": {
+                "highest_similarity": 0.714,
+                "matched_title": "Random forest",
+                "matched_source": "Wikipedia",
+                "matched_content": "Random forests or random decision forests is an ensemble learning method for classification, regression and other tasks that works by creating a multitude of decision trees during training. For classification tasks, the output of the random forest is the class selected by most trees. For regression tasks, the output is the average of the predictions of the trees. Random forests correct for decision trees' habit of overfitting to their training set.",
+                "plagiarism_score": 71.4,
+                "plagiarism_flag": false,
+                "confidence": "Moderate",
+                "explanation": "Moderate similarity detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 58.2,
+                    "vocabulary": 0.103,
+                    "repetition": 0.028,
+                    "formality": 0.004,
+                    "consistency": 0.869
+                },
+                "z_scores": {
+                    "perplexity": 1.78,
+                    "vocabulary": 1.06,
+                    "repetition": 1.04,
+                    "formality": 0.44,
+                    "consistency": 0.21
+                },
+                "overall_deviation": 0.91,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 34.23,
+                "confidence": 31.54,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "High perplexity suggests natural variation.",
+                    "Moderate vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Moderate sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Moderate external similarity.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 29.46,
+                "plagiarism_score": 71.4,
+                "outlier_score": 0,
+                "ai_probability": 34.23,
+                "authenticity_score": 50.42,
+                "risk_level": "Moderate",
+                "recommendation": "Needs Manual Review",
+                "explanation": "Preparedness: 29.5, Plagiarism: 71.4, Outlier: No, AI Probability: 34.2"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Random forest",
+                    "url": "https://en.wikipedia.org/wiki/Random_forest",
+                    "content": "Random forests or random decision forests is an ensemble learning method for classification, regression and other tasks that works by creating a multitude of decision trees during training. For classification tasks, the output of the random forest is the class selected by most trees. For regression tasks, the output is the average of the predictions of the trees. Random forests correct for decision trees' habit of overfitting to their training set.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Decision Tree?",
+            "answer": " Decision tree is a supervised learning approach in statistics, data mining and machine learning. In this formalism, a classification regression decision tree is used as a predictive model to draw conclusions about a set of observations.",
+            "metrics": {
+                "total_words": 36,
+                "unique_words": 28,
+                "vocabulary_richness": 0.778,
+                "sentence_consistency": 4.0,
+                "repetition_score": 0.111,
+                "formality_score": 0.0,
+                "perplexity": 30.24
+            },
+            "preparedness": {
+                "preparedness_score": 47.78,
+                "response_type": "Prepared Response",
+                "confidence": 4.44,
+                "observed_traits": [
+                    "Highly Predictable Text"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.159,
+                "matched_title": "Decision tree",
+                "matched_source": "Wikipedia",
+                "matched_content": "A decision tree is a decision support recursive partitioning structure that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements.",
+                "plagiarism_score": 15.9,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 23.21,
+                    "vocabulary": 0.064,
+                    "repetition": 0.03,
+                    "formality": 0.003,
+                    "consistency": 2.099
+                },
+                "z_scores": {
+                    "perplexity": 0.68,
+                    "vocabulary": 0.66,
+                    "repetition": 1.11,
+                    "formality": 0.33,
+                    "consistency": 0.51
+                },
+                "overall_deviation": 0.66,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 40.96,
+                "confidence": 18.08,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Low perplexity indicates structured language.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Moderate sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 47.78,
+                "plagiarism_score": 15.9,
+                "outlier_score": 0,
+                "ai_probability": 40.96,
+                "authenticity_score": 74.67,
+                "risk_level": "Low",
+                "recommendation": "Probably Genuine",
+                "explanation": "Preparedness: 47.8, Plagiarism: 15.9, Outlier: No, AI Probability: 41.0"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Decision tree",
+                    "url": "https://en.wikipedia.org/wiki/Decision_tree",
+                    "content": "A decision tree is a decision support recursive partitioning structure that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Decision Tree?",
+            "answer": " A decision tree is a supervised learning machine learning algorithm, useful classification and regression tasks. It works by splitting the data into smaller groups based on feature values, creating a tree like structure of decision rules. Each internal node represents a decision based on a feature. Each branch represents the outcome of that decision and each leaf node represents the final prediction or class. Decision tree are easy to understand and interpret but they can overfit the training data if tree becomes too deep. They are widely used in applications such as medical diagnosis, customer segmentation and credit risk analysis.",
+            "metrics": {
+                "total_words": 100,
+                "unique_words": 70,
+                "vocabulary_richness": 0.7,
+                "sentence_consistency": 3.636,
+                "repetition_score": 0.05,
+                "formality_score": 0.0,
+                "perplexity": 42.51
+            },
+            "preparedness": {
+                "preparedness_score": 45.0,
+                "response_type": "Prepared Response",
+                "confidence": 10.0,
+                "observed_traits": []
+            },
+            "similarity": {
+                "highest_similarity": 0.161,
+                "matched_title": "Decision tree",
+                "matched_source": "Wikipedia",
+                "matched_content": "A decision tree is a decision support recursive partitioning structure that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements.",
+                "plagiarism_score": 16.1,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 10.11,
+                    "vocabulary": 0.016,
+                    "repetition": 0.032,
+                    "formality": 0.003,
+                    "consistency": 2.388
+                },
+                "z_scores": {
+                    "perplexity": 0.3,
+                    "vocabulary": 0.17,
+                    "repetition": 1.19,
+                    "formality": 0.33,
+                    "consistency": 0.59
+                },
+                "overall_deviation": 0.52,
+                "flag_percentage": 0.0,
+                "flagged_metrics": [],
+                "is_outlier": false
+            },
+            "ai_flag": {
+                "ai_probability": 33.72,
+                "confidence": 32.56,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Moderate sentence variation.",
+                    "Moderate repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 45.0,
+                "plagiarism_score": 16.1,
+                "outlier_score": 0,
+                "ai_probability": 33.72,
+                "authenticity_score": 74.49,
+                "risk_level": "Low",
+                "recommendation": "Probably Genuine",
+                "explanation": "Preparedness: 45.0, Plagiarism: 16.1, Outlier: No, AI Probability: 33.7"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Decision tree",
+                    "url": "https://en.wikipedia.org/wiki/Decision_tree",
+                    "content": "A decision tree is a decision support recursive partitioning structure that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        },
+        {
+            "question": "What is Decision Tree?",
+            "answer": " In decision-freeze we are basically creating trees and all the nodes they represent features and they can be used for classification and regression tasks and you are adding predictions based on that.",
+            "metrics": {
+                "total_words": 33,
+                "unique_words": 28,
+                "vocabulary_richness": 0.848,
+                "sentence_consistency": 0,
+                "repetition_score": 0.121,
+                "formality_score": 0.0,
+                "perplexity": 119.42
+            },
+            "preparedness": {
+                "preparedness_score": 44.38,
+                "response_type": "Natural Response",
+                "confidence": 11.24,
+                "observed_traits": [
+                    "Rich Vocabulary",
+                    "Low Sentence Variation"
+                ]
+            },
+            "similarity": {
+                "highest_similarity": 0.079,
+                "matched_title": "Decision tree",
+                "matched_source": "Wikipedia",
+                "matched_content": "A decision tree is a decision support recursive partitioning structure that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements.",
+                "plagiarism_score": 7.9,
+                "plagiarism_flag": false,
+                "confidence": "Very Low",
+                "explanation": "No meaningful plagiarism detected."
+            },
+            "baseline_deviation": {
+                "deviations": {
+                    "perplexity": 67.15,
+                    "vocabulary": 0.132,
+                    "repetition": 0.04,
+                    "formality": 0.003,
+                    "consistency": 5.941
+                },
+                "z_scores": {
+                    "perplexity": 2.03,
+                    "vocabulary": 1.4,
+                    "repetition": 1.43,
+                    "formality": 0.33,
+                    "consistency": 1.49
+                },
+                "overall_deviation": 1.34,
+                "flag_percentage": 20.0,
+                "flagged_metrics": [
+                    "perplexity"
+                ],
+                "is_outlier": true
+            },
+            "ai_flag": {
+                "ai_probability": 38.02,
+                "confidence": 23.96,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "High perplexity suggests natural variation.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "Very uniform sentence lengths.",
+                    "Noticeable repeated wording.",
+                    "Response appears relatively spontaneous.",
+                    "Minimal overlap with reference documents.",
+                    "Response deviates significantly from candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 44.38,
+                "plagiarism_score": 7.9,
+                "outlier_score": 100,
+                "ai_probability": 38.02,
+                "authenticity_score": 51.75,
+                "risk_level": "Moderate",
+                "recommendation": "Needs Manual Review",
+                "explanation": "Preparedness: 44.4, Plagiarism: 7.9, Outlier: Yes, AI Probability: 38.0"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Decision tree",
+                    "url": "https://en.wikipedia.org/wiki/Decision_tree",
+                    "content": "A decision tree is a decision support recursive partitioning structure that uses a tree-like model of decisions and their possible consequences, including chance event outcomes, resource costs, and utility. It is one way to display an algorithm that only contains conditional control statements.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "candidate_name": "Shivaaya",
+    "interview_id": "20260710_201327_7b5e7a",
+    "baseline": null,
+    "summary": {
+        "candidate_name": "Shivaaya",
+        "interview_id": "20260710_201327_7b5e7a",
+        "total_questions": 1,
+        "average_preparedness": 40.74,
+        "average_plagiarism": 90.6,
+        "average_ai_probability": 48.19,
+        "overall_authenticity": 45.69,
+        "flagged_questions": 0,
+        "recommendation": "Suspicious Interview",
+        "generated_at": "2026-07-10 20:18:15"
+    },
+    "responses": [
+        {
+            "question": "What is Machine Learning?",
+            "answer": " Machine Learning is a field in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data. And Thursday's performed tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms to surpass many previous machine learning approaches in performance.",
+            "metrics": {
+                "total_words": 61,
+                "unique_words": 45,
+                "vocabulary_richness": 0.738,
+                "sentence_consistency": 8.055,
+                "repetition_score": 0.049,
+                "formality_score": 0.0,
+                "perplexity": 43.63
+            },
+            "preparedness": {
+                "preparedness_score": 40.74,
+                "response_type": "Natural Response",
+                "confidence": 18.52,
+                "observed_traits": []
+            },
+            "similarity": {
+                "highest_similarity": 0.906,
+                "matched_title": "Machine learning",
+                "matched_source": "Wikipedia",
+                "matched_content": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+                "plagiarism_score": 90.6,
+                "plagiarism_flag": true,
+                "confidence": "Very High",
+                "explanation": "Similarity exceeded the high threshold."
+            },
+            "baseline_deviation": null,
+            "ai_flag": {
+                "ai_probability": 48.19,
+                "confidence": 3.62,
+                "risk_level": "Low",
+                "recommendation": "Response appears predominantly human.",
+                "explanation": [
+                    "Moderate perplexity.",
+                    "Above-average vocabulary richness.",
+                    "Mostly conversational language.",
+                    "High sentence variation.",
+                    "Very little repetition.",
+                    "Response appears relatively spontaneous.",
+                    "Very high similarity to external sources.",
+                    "Response aligns with established candidate baseline."
+                ]
+            },
+            "authenticity": {
+                "preparedness_score": 40.74,
+                "plagiarism_score": 90.6,
+                "outlier_score": 0,
+                "ai_probability": 48.19,
+                "authenticity_score": 45.69,
+                "risk_level": "High",
+                "recommendation": "Suspicious",
+                "explanation": "Preparedness: 40.7, Plagiarism: 90.6, Outlier: No, AI Probability: 48.2"
+            },
+            "retrieved_documents": [
+                {
+                    "title": "Machine learning",
+                    "url": "https://en.wikipedia.org/wiki/Machine_learning",
+                    "content": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data, and thus perform tasks without being explicitly programmed. Advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
+                    "source": "Wikipedia",
+                    "similarity": null
+                }
+            ]
+        }
+    ]
+}

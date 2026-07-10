@@ -15,16 +15,12 @@ will use throughout the pipeline.
 ==============================================================
 """
 
-from dataclasses import dataclass, field
-from typing import List, Optional
-
-
 # ==============================================================
 # INDIVIDUAL INTERVIEW RESPONSE
 # ==============================================================
 
 from dataclasses import dataclass, field
-from typing import Optional
+from typing import List, Optional
 @dataclass
 class RetrievedDocument:
     """
@@ -107,6 +103,8 @@ class InterviewResponse:
 
     ai_flag: Optional[dict] = None
     
+    authenticity: Optional[dict] = None
+    
     retrieved_documents: list = field(default_factory=list)
 
 # ==============================================================
@@ -131,3 +129,26 @@ class InterviewSession:
     summary: Optional[dict] = None
 
     overall_assessment: Optional[dict] = None
+
+@dataclass
+class AuthenticityResult:
+    """
+    Final authenticity assessment for
+    one interview response.
+    """
+
+    preparedness_score: float
+
+    plagiarism_score: float
+
+    outlier_score: float
+
+    ai_probability: float
+
+    authenticity_score: float
+
+    risk_level: str
+
+    recommendation: str
+
+    explanation: str

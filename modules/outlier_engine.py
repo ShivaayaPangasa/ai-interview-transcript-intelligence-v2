@@ -1,74 +1,151 @@
 """
 ==============================================================
+
 Outlier Detection Engine
 
 Version 2
 
-Compares an individual interview response against the
-candidate's baseline profile.
+Detects whether a response significantly deviates
+from the candidate's baseline profile.
+
+Input
+
+Metrics Dictionary
+
++
+
+Candidate Baseline
+
+Output
+
+Deviation Statistics
 
 ==============================================================
 """
 
-from modules.interview_models import InterviewResponse
 
 def detect_outlier(
-    response: InterviewResponse,
+    metrics: dict,
     baseline: dict
 ):
+    """
+    Compares one response against the
+    candidate's linguistic baseline.
+    """
 
-    if response.metrics is None:
+    # ---------------------------------------------------------
+    # Safety Checks
+    # ---------------------------------------------------------
+
+    if metrics is None:
+
         return None
 
-    metrics = response.metrics
+    if baseline is None:
+
+        return None
+
+    # ---------------------------------------------------------
+    # Absolute Deviations
+    # ---------------------------------------------------------
+
     deviations = {
 
         "perplexity":
+
             round(
+
                 abs(
-                    metrics["perplexity"] -
+
+                    metrics["perplexity"]
+
+                    -
+
                     baseline["perplexity"]["mean"]
+
                 ),
+
                 3
+
             ),
 
         "vocabulary":
+
             round(
+
                 abs(
-                    metrics["vocabulary_richness"] -
+
+                    metrics["vocabulary_richness"]
+
+                    -
+
                     baseline["vocabulary"]["mean"]
+
                 ),
+
                 3
+
             ),
 
         "repetition":
+
             round(
+
                 abs(
-                    metrics["repetition_score"] -
+
+                    metrics["repetition_score"]
+
+                    -
+
                     baseline["repetition"]["mean"]
+
                 ),
+
                 3
+
             ),
 
         "formality":
+
             round(
+
                 abs(
-                    metrics["formality_score"] -
+
+                    metrics["formality_score"]
+
+                    -
+
                     baseline["formality"]["mean"]
+
                 ),
+
                 3
+
             ),
 
         "consistency":
+
             round(
+
                 abs(
-                    metrics["sentence_consistency"] -
+
+                    metrics["sentence_consistency"]
+
+                    -
+
                     baseline["consistency"]["mean"]
+
                 ),
+
                 3
+
             )
 
     }
+
+    # ---------------------------------------------------------
+    # Z Scores
+    # ---------------------------------------------------------
 
     z_scores = {}
 
@@ -83,9 +160,18 @@ def detect_outlier(
         else:
 
             z_scores[metric] = round(
-                deviations[metric] / std,
+
+                deviations[metric] /
+
+                std,
+
                 2
+
             )
+
+    # ---------------------------------------------------------
+    # Flag Metrics
+    # ---------------------------------------------------------
 
     flagged_metrics = []
 
@@ -93,32 +179,80 @@ def detect_outlier(
 
         if score >= 2:
 
-            flagged_metrics.append(metric)
+            flagged_metrics.append(
 
-    overall_score = round(
-        sum(z_scores.values()) /
+                metric
+
+            )
+
+    # ---------------------------------------------------------
+    # Overall Deviation
+    # ---------------------------------------------------------
+
+    overall_deviation = round(
+
+        sum(
+
+            z_scores.values()
+
+        )
+
+        /
+
         len(z_scores),
+
         2
+
     )
-    
-    total_metrics = len(deviations)
-    
+
     flag_percentage = round(
-        (len(flagged_metrics) / total_metrics) * 100,
+
+        (
+
+            len(flagged_metrics)
+
+            /
+
+            len(deviations)
+
+        )
+
+        *
+
+        100,
+
         1
+
     )
-    
+
+    # ---------------------------------------------------------
+    # Return
+    # ---------------------------------------------------------
+
     return {
-        
-        "deviations": deviations,
-        
-        "z_scores": z_scores,
-        
-        "overall_deviation": overall_score,
-        
-        "flag_percentage": flag_percentage,
-        
-        "flagged_metrics": flagged_metrics,
-        
-        "is_outlier": len(flagged_metrics) > 0
+
+        "deviations":
+
+            deviations,
+
+        "z_scores":
+
+            z_scores,
+
+        "overall_deviation":
+
+            overall_deviation,
+
+        "flag_percentage":
+
+            flag_percentage,
+
+        "flagged_metrics":
+
+            flagged_metrics,
+
+        "is_outlier":
+
+            len(flagged_metrics) > 0
+
     }
